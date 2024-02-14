@@ -6,14 +6,40 @@ p {
 
 /*set background color */
 body {
-    background-color: #00008B; /* Dark Blue*/
+    background-color: #1B32A5; /* Dark Blue #00008B #233AAC*/
 }
 
 /*set font size for h1 */
-h1 {
+ h1 {
+    color: white;
     font-size: 28px;
     font-family: Garamond;
-    text-shadow: #9BA4B5 1px 0 10px;
+
+}
+
+h4 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: white;
+    font-family: Garamond;
+    padding: 10px;
+}
+
+h5 {
+    display: block;
+    font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
 }
 
 .text {
@@ -25,18 +51,25 @@ html {
     scroll-behavior: smooth;
 }
 
-#theDiv
-{
+#theDiv {
     color: white;
     width: 300px;
-    border: solid green 2px;
+    border: solid #F0E68C 2px;
+}
+
+#theDiv2 {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 1000px;
+    border: solid #F0E68C 2px;
 }
 
 /*For sizing all images*/
 img
 {
-    width: 500px;
-    height:300px;
+    width: 100px;
+    height:200px;
 }
 
 /* For centering images*/
@@ -45,6 +78,27 @@ img
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+/*For putting three images side to side*/
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+/*For fixed footer of webpage*/
+#footer {
+    /* position: fixed; for fixed to bottom of the screen*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F0E68C;
+    color: black;
+    text-align: center;
 }
 
 /*-------------------------------- Navigation bar settings --------------------------------*/
@@ -58,7 +112,7 @@ img
     /* Links inside the navbar */
     .navbar a {
         float:left;
-        font-size: 16px;
+        font-size: 20px;
         color: black;
         text-align: center;
         padding: 14px 16px;
@@ -73,7 +127,7 @@ img
 
     /* Dropdown button */
     .dropdown .dropbtn {
-        font-size: 16px;
+        font-size: 20px;
         border: none;
         outline: none;
         color: black;
