@@ -1,4 +1,4 @@
-﻿/*set text color for paragraphs */
+﻿﻿/*set text color for paragraphs */
 p {
     color: white;
     font-family: Garamond;
@@ -17,6 +17,7 @@ body {
 
 }
 
+/* set font size and spacing for h4 */
 h4 {
     display: block;
     font-size: 1.17em;
@@ -30,38 +31,75 @@ h4 {
     padding: 10px;
 }
 
+/* sent font size and spacing for h5 */
 h5 {
     display: block;
-    font-size: .83em;
-    margin-top: 1.67em;
-    margin-bottom: 1.67em;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
-    color: black;
-    padding: 10px;
+    color: white;
 }
 
-.text {
-    color: white;
+/*set font size for td */
+td {
+    color: black;
+    font-size: 16px;
+    font-family: Garamond;
+
+}
+
+/*set font size for th */
+th {
+    color: black;
+    font-size: 20px;
     font-family: Garamond;
 }
 
+/* set font size for text */
+.text {
+    color: #F8F8FF;
+    font-family: Garamond;
+}
+
+/* set html scroll behavior */
 html {
     scroll-behavior: smooth;
 }
 
+/* set #theDiv tag settings */
 #theDiv {
     color: white;
     width: 300px;
     border: solid #F0E68C 2px;
 }
 
+/* set #theDiv2 tag settings */
 #theDiv2 {
     margin-left: auto;
     margin-right: auto;
     color: white;
     width: 1000px;
+    border: solid #F0E68C 2px;
+}
+
+/* set #theDiv3 tag settings */
+#theDiv3 {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 300px;
+    border: solid #F0E68C 2px;
+}
+
+/* set #theDiv4 tag settings */
+#theDiv4 {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 600px;
     border: solid #F0E68C 2px;
 }
 
@@ -72,6 +110,7 @@ img
     height:200px;
 }
 
+
 /* For centering images*/
 .center {
     display: block;
@@ -79,6 +118,15 @@ img
     margin-right: auto;
     width: 50%;
 }
+
+/* for centering smaller images */
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
 
 /*For putting three images side to side*/
 .row {
