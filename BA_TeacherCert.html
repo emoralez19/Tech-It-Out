@@ -1,0 +1,491 @@
+<!-- Carina Vlaun Last modified 02.18.2024-->
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <!--Link to the CSS stylesheet-->
+    <link rel="stylesheet" href="StyleSheet1.css">
+
+</head>
+<body>
+
+    <!--Image at the top of the navigation bar-->
+    <img src="C:\Users\eliza\OneDrive\Desktop\Tech It Out\Pictures\departmentLogo.jpg" class="center" />
+
+    <!-- add navigation bar code to the top of every file /> -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <!-- Dropdown for BS degrees -->
+        <div class="dropdown">
+            <button class="dropbtn">
+                BS Degrees ▼
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Computer Science</a>
+                <a href="#">Cybersecurity</a>
+                <a href="#">Game Development</a>
+                <a href="#">Data Science</a>
+            </div>
+        </div>
+        <!--BA degrees-->
+        <div class="dropdown">
+            <button class="dropbtn">
+                BA Degrees ▼
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Computer Information Systems</a>
+                <a href="#">Computer Science and Application Systems</a>
+                <a href="BA_TeacherCert.html">Computer Science with a Teacher Certification</a>
+            </div>
+        </div>
+        <!--MS Degrees-->
+        <div class="dropdown">
+            <button class="dropbtn">
+                MS Degrees ▼
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Computer Science</a>
+                <a href="#">Cybersecurity</a>
+                <a href="#">Computer Information Systems</a>
+            </div>
+        </div>
+        <!--Certifications-->
+        <div class="dropdown">
+            <button class="dropbtn">
+                Certifications ▼
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Educational Computer Gaming</a>
+                <a href="#">Cybersecurity</a>
+            </div>
+        </div>
+        <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\ComputerScienceMinor.html">Minor</a>
+        <!--CS Department-->
+        <div class="dropdown">
+            <button class="dropbtn">
+                CS Department ▼
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Professors</a>
+                <a href="#">Clubs</a>
+            </div>
+        </div>
+        <a href="#news">Resources</a>
+        <a href="#news">Quiz</a>
+    </div>
+
+
+    <!--Adding empty spaces between the navigation bar and the introduction paragraph-->
+    <br />
+    <br />
+
+        <!--Introduction for Computer Science with Teacher Certification-->
+    <div id="theDiv2">
+        <br />
+        <br />
+    <!--Adding space between the box and photo-->
+        <img src="C:\Users\eliza\OneDrive\Desktop\Tech It Out\Pictures\hannah.png" alt="BS" style="width:50%" class="center">
+        <h1 style="text-align:center">Computer Science with Teacher Certification </h1>
+        <h4 style="text-align:center">
+            Computer Scientists with a teacher certification are able to contribute to any learning environment teaching 
+            students the valuable skill of computer programming. Through this field you will work closely with your peers and students
+            advancing the knowledge of the next generation of programmers. 
+        </h4>
+        <!--Adding empty spaces between the introduction and the degree plan-->
+    </div>
+    <br />
+    <br />
+    <br />
+
+
+
+      
+<!-- Code used from Albert Mendez -->
+
+    <!-- stylization for the tables as well as having each table side by side -->
+    <style>
+    *{
+        box-sizing: border-box;
+      }
+      
+      .row {
+        margin-left:-5px;
+        margin-right:-5px;
+      }
+        
+      .column {
+        float: left;
+        width: 50%;
+        padding: 15px;
+      }
+      
+      /* Clearfix (clear floats) */
+        .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      } 
+      
+      /* table settings */
+      table {
+        border-collapse: collapse; 
+        border-spacing: 0; 
+        width: 100%;
+        border: 2px solid #F0E68C;
+      }
+      
+      /* table header settings */
+      th {
+        text-align: left;
+        padding: 10px;
+      }
+      
+      /* table data settings */
+      td {
+        text-align: left;
+        padding: 10px; 
+      }
+      
+      /* sets the even rows background colour set to azure */
+       tr:nth-child(even){
+        background-color: azure;
+      }
+
+      /* sets the odd rows background colour set to white */
+      tr:nth-child(odd)
+      {
+        background-color: white;
+      }
+
+      /* every even row the background colour is set to this dark gold colour */
+      tr:first-child {
+        background-color: #554d05;
+      }
+
+      /* every even row the background colour is set to this light gold colour */
+      tr:nth-child(2){
+        background-color: #F0E68C;
+      }
+      
+      
+
+      /* mobile view for the tables if the screen is lower than 600 pixels wide then the
+         tables are placed on top of one another */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+      </style>
+
+<!-- splits the divs to two divs row and class will be used to show tables side by side-->
+<div class = "row">
+    <div class = "column">
+    <!-- Table for course schedule template-->
+    <table>
+        <!-- First Year-->
+        <tr>
+            <th>First Year</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><b>Fall</b></td>
+            <td><b>Semester Hours</b></td>
+            <td><b>Spring</b></td>
+            <td><b>Semester Hours</b></td>
+        </tr>
+        <tr>
+            <td>MT 2303/2306/1411 Statistics or Precalculus</td>
+            <td>3</td>
+            <td>Social Science</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>FYE 1301</td>
+            <td>3</td>
+            <td>Literature</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>EN 1311</td>
+            <td>3</td>
+            <td>CS 1311</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Elective</td>
+            <td>3</td>
+            <td>MT 2323</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>CS 1310</td>
+            <td>3</td>
+            <td>Fine Arts</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <!-- empty row for spacing/formatting &nbsp; is used to prevent collapsing the row-->
+            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>15</td>
+            <td></td>
+            <td>15</td>
+        </tr>
+    </table>
+    <!-- end of the first column div-->
+    </div>
+    
+    
+    <!-- begin the second column div-->
+    <div class="column">
+    <!-- Second Year-->
+    <table>
+        <tr>
+            <th>Second Year</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><b>Fall</b></td>
+            <td><b>Semester Hours</b></td>
+            <td><b>Spring</b></td>
+            <td><b>Semester Hours</b></td>
+        </tr>
+        <tr>
+            <td>CS 2315</td>
+            <td>3</td>
+            <td>Foreign Language</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>PL 1301</td>
+            <td>3</td>
+            <td>CS 2323</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>CS 2313</td>
+            <td>3</td>
+            <td>CS 2350</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>CS 2110</td>
+            <td>1</td>
+            <td>Natural or Physical Sciences</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>History</td>
+            <td>3</td>
+            <td>PL 2301</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Foreign Language</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>16</td>
+            <td></td>
+            <td>15</td>
+        </tr>
+    </table>
+    <!-- end the second column div above-->
+    </div>
+    <!-- end of the row div above-->
+    </div>
+    
+    
+    <!-- splits the divs to two divs row and class will be used to show tables side by side-->
+    <div class = "row">
+        <div class = "column">
+        <!-- Third Year-->
+    <table>
+        <tr>
+            <th>Third Year</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><b>Fall</b></td>
+            <td><b>Semester Hours</b></td>
+            <td><b>Spring</b></td>
+            <td><b>Semester Hours</b></td>
+        </tr>
+        <tr>
+            <td>CS 3310</td>
+            <td>3</td>
+            <td>Advanced Theology</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>TH 1301</td>
+            <td>3</td>
+            <td>CS 3340</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>ED 3302</td>
+            <td>3</td>
+            <td>CS 4330</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>ED Adolescent Development in the school setting</td>
+            <td>3</td>
+            <td>ED 3330</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>CS 4320</td>
+            <td>3</td>
+            <td>ED 3355</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>CS 3110</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>16</td>
+            <td></td>
+            <td>15</td>
+        </tr>
+    </table>
+    <!-- end of the first column div-->
+    </div>
+        
+    <!-- begin the second column div-->
+    <div class="column">
+        <!-- Fourth Year-->
+    <table>
+        <tr>
+            <th>Fourth Year</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><b>Fall</b></td>
+            <td><b>Semester Hours</b></td>
+            <td><b>Spring</b></td>
+            <td><b>Semester Hours</b></td>
+        </tr>
+        <tr>
+            <td>Elective</td>
+            <td>3</td>
+            <td>CS 4395</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Elective</td>
+            <td>3</td>
+            <td>ED 4388</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>CS 3350</td>
+            <td>3</td>
+            <td>ED 4689</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>CS 4110</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>ED 3362</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>ED 3350</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+        </tr>
+   
+        <tr>
+            <td></td>
+            <td>16</td>
+            <td></td>
+            <td>12</td>
+            </tr>
+    </table>
+    <!-- end the second column div above-->
+    </div>
+    <!-- end of the row div above-->
+    </div>
+    
+    <!--Calculated total hours of the BS Computer Science Program-->
+        <!--Adding empty spaces between the course schedule and the total hours calculated-->
+        <br />
+        <div id="theDiv3">
+            <h4 style="text-align:center">
+                Total Degree Hours: 120
+            </h4>
+            <!--Adding empty spaces between the total number of hours calculated and the example jobs-->
+        </div>
+        <br />
+        <br />
+    
+
+
+
+     <!--Job Example Section-->
+    <div id="theDiv3">
+        <h1 style="text-align:center"> Examples of jobs you can obtain with this degree  </h1>
+        <h4 style="text-align:center">
+        <font color="#FFFFFF">
+            - Computer Science Professor <br />         <!--Adding empty spaces between each job example-->
+            - Computer Science Middle School / High School Teacher <br />            <!--Adding empty spaces between each job example-->
+            - Computer Science Tutor  
+        </h4>
+    </div>
+
+
+
+    <!--Adding spaces to allow view of the bottom of the page-->
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!--Footer section-->
+    <div id="footer">
+        <pre>Students interested in pursuing a degree at St. Mary's University should contact the Office of Admission</pre>
+        <pre><a href="mailto:udam@stmarytx.edu">udam@stmarytx.edu</a>  210-436-3126  800-367-7868
+        <br /> 1 Camino Santa Maria, San Antonio, Texas, 78228</pre>
+    </div>
+
+</body>
+</html>
