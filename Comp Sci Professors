@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!-- Feras Rabee -->
+<html lang="en">
+
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link to Stylesheet -->
+    <!-- TO BE UPDATED || PATH TO BE TESTED ONLY -->
+    <link rel="stylesheet" href="file:///D:/StyleSheet1.css">
+    
+    <!-- Title of the Page -->
+    <title>Computer Science Professors</title>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        
+        <!-- BS Degrees Dropdown -->
+        <div class="dropdown">
+            <button class="dropbtn">
+                BS Degrees ▼
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Computer Science</a>
+                <a href="#">Cybersecurity</a>
+                <a href="#">Game Development</a>
+                <a href="#">Data Science</a>
+            </div>
+        </div>
+        
+        <!-- BA Degrees Dropdown -->
+        <div class="dropdown">
+            <button class="dropbtn">
+                BA Degrees ▼
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Computer Information Systems</a>
+                <a href="#">Computer Science and Application Systems</a>
+                <a href="#">Computer Science with a Teacher Certification</a>
+            </div>
+        </div>
+        
+        <!-- MS Degrees Dropdown -->
+        <div class="dropdown">
+            <button class="dropbtn">
+                MS Degrees ▼
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Computer Science</a>
+                <a href="#">Cybersecurity</a>
+                <a href="#">Computer Information Systems</a>
+            </div>
+        </div>
+        
+        <!-- Certifications Dropdown -->
+        <div class="dropdown">
+            <button class="dropbtn">
+                Certifications ▼
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Educational Computer Gaming</a>
+                <a href="#">Cybersecurity</a>
+            </div>
+        </div>
+        
+        <a href="#news">Minor</a>
+        
+        <!-- CS Department Dropdown -->
+        <div class="dropdown">
+            <button class="dropbtn">
+                CS Department ▼
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Professors</a>
+                <a href="#">Clubs</a>
+            </div>
+        </div>
+        
+        <a href="#news">Resources</a>
+        <a href="#news">Quiz</a>
+    </div>
+
+    <!-- Page Content -->
+    <div id="theDiv2">
+        <!-- Page Title -->
+        <h1>Computer Science Professors</h1>
+
+       <!-- Professor Carol Luckhardt Redfield -->
+<div class="professor">
+    <h2>Carol Luckhardt Redfield, Ph.D.</h2>
+    <!-- Photo of the Professor || TO BE UPDATED || PATH TO BE TESTED ONLY -->
+    <img src="file:///C:\Users\fr2sq\Desktop\software engineering\redfield.jpg" alt="Professor Redfield Photo" class="center">
+    <!-- Contact Information -->
+    <p>Chair and Professor of Computer Science</p>
+    <p>Contact: <a href="mailto:credfield@stmarytx.edu">credfield@stmarytx.edu</a></p>
+    <p>Phone: 210-436-3298</p>
+    <!-- List of Classes Taught -->
+    <h3>Classes Taught:</h3>
+    <ul>
+        <li>Programming I</li>
+        <li>Programming II/Data Structures</li>
+        <li>Software Engineering (undergraduate and graduate)</li>
+        <li>Senior Project</li>
+        <li>Artificial Intelligence (undergraduate and graduate)</li>
+        <li>Computer Graphics (undergraduate and graduate)</li>
+        <li>Computer Gaming (undergraduate and graduate)</li>
+        <li>E-Learning and Gamification (undergraduate and graduate)</li>
+        <li>Oracle Programming (undergraduate and graduate)</li>
+    </ul>
+    <!-- Club Engagement -->
+    <div class="club-info">
+        <h3>Club Engagement: Infinite Loops</h3>
+        <p>Infinite Loops (Computer Science Club) is a place for networking, having fun and learning about computers/programming within St. Mary’s University for students of all majors. It was initially founded for Computer Science majors to receive help from peers, but has since grown larger in scope.</p>
+    </div>
+</div>
+
+
+
+        <!-- Professor Arthur Hanna -->
+        <div class="professor">
+            <h2>Arthur Hanna, Ph.D.</h2>
+            <!-- Photo of the Professor || TO BE UPDATED || PATH TO BE TESTED ONLY -->
+            <img src="file:///C:\Users\fr2sq\Desktop\software engineering\hanna.jpg" alt="Professor Hanna Photo" class="center">
+            <!-- Contact Information -->
+            <p>Professor of Computer Science | Graduate Program Director of Computer Science and Computer Information Systems</p>
+            <p>Contact: <a href="mailto:ahanna@stmarytx.edu">ahanna@stmarytx.edu</a></p>
+            <p>Phone: 210-431-2021</p>
+            <!-- List of Classes Taught -->
+            <h3>Classes Taught:</h3>
+            <ul>
+                <li>Programming I</li>
+                <li>Programming II/Data Structures</li>
+                <li>Object-Oriented Programming I</li>
+                <li>Object-Oriented Programming II</li>
+                <li>Algorithms</li>
+                <li>Computer Architecture</li>
+                <li>Operating Systems (undergraduate and graduate)</li>
+                <li>Survey of Programming Languages</li>
+                <li>Files and Databases</li>
+                <li>Internet Programming</li>
+                <li>Mobile Programming</li>
+                <li>Senior Project</li>
+                <li>Foundations of Reflection: Nature (core course in science)</li>
+            </ul>
+        </div>
+
+        <!-- Professor Ayad Barsoum -->
+<div class="professor">
+    <h2>Ayad Barsoum, Ph.D.</h2>
+    <!-- Photo of the Professor || TO BE UPDATED || PATH TO BE TESTED ONLY -->
+    <img src="file:///C:\Users\fr2sq\Desktop\software engineering\barsoum.jpg" alt="Professor Barsoum Photo" class="center">
+    <!-- Contact Information -->
+    <p>Associate Professor of Computer Science | Graduate Program Director of Cybersecurity and the Certificate in Cybersecurity | Director of NSA/DHS Designated Center for Cyber Excellence</p>
+    <p>Contact: <a href="mailto:abarsoum@stmarytx.edu">abarsoum@stmarytx.edu</a></p>
+    <p>Phone: 210-436-3315</p>
+    <!-- List of Classes Taught -->
+    <h3>Classes Taught:</h3>
+    <ul>
+        <li>Advanced Computer Networks</li>
+        <li>Cryptography</li>
+        <li>Files and Databases</li>
+        <li>Object Oriented Programming</li>
+        <li>Visual Programming</li>
+        <li>Cloud Computing</li>
+        <li>Computer Security and Privacy</li>
+        <li>Network Security</li>
+        <li>CISSP</li>
+        <li>Web Programming</li>
+    </ul>
+    <!-- Club Engagement -->
+    <div class="club-info">
+        <h3>Club Engagement: Buffer Overflow Club</h3>
+        <p>The Buffer Overflow club of St. Mary’s University is a group of students who are interested in cybersecurity. It is a place for networking and increasing students’ interest in cybersecurity careers and diversity in the cybersecurity workforce of the nation. The club welcomes students from different majors.</p>
+        
+    </div>
+</div>
+
+
+
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <pre>Students interested in pursuing a degree at St. Mary's University should contact the Office of Admission</pre>
+        <pre><a href="mailto:udam@stmarytx.edu">udam@stmarytx.edu</a>  210-436-3126  800-367-7868
+        <br /> 1 Camino Santa Maria, San Antonio, Texas, 78228</pre>
+    </div>
+
+</body>
+
+</html>
+
+
