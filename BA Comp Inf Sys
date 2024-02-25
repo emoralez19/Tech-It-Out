@@ -111,50 +111,60 @@
         <ul class="text">
             <li><strong>First Year:</strong>
                 <ul>
-                    <li>Introduction to First Year Experience (FYE) - 3 credit hours</li>
+                    <li>First Year Seminar (FYE) - 3 credit hours</li>
                     <li>Programming I (CS 1310) - 3 credit hours</li>
-                    <li>Programming II (CS 1311) - 3 credit hours</li>
-                    <li>Discrete Mathematics (MT 2306) - 3 credit hours</li>
-                    <li>English Composition I (EN 1311) - 3 credit hours</li>
-                    <li>Fine Arts Elective - 3 credit hours</li>
-                    <li>Literature Elective - 3 credit hours</li>
+                    <li>Data Structures (CS 1311) - 3 credit hours</li>
+                    <li>Business Statistics (MT 2306) - 3 credit hours</li>
+                    <li>Rhetoric and Composition (EN 1311) - 3 credit hours</li>
+                    <li>Fine Arts - 3 credit hours</li>
+                    <li>Literature - 3 credit hours</li>
+                    <li> Finite Mathematics - 3 credit hours</li>
+                    <li>Elective - 3 credit hours</li>
                     <li>Elective - 3 credit hours</li>
                 </ul>
             </li>
             <li><strong>Second Year:</strong>
                 <ul>
-                    <li>Computer Organization (CS 2110) - 1 credit hour</li>
+                    <li>Sophomore CS Seminar (CS 2110) - 1 credit hour</li>
                     <li>Object-Oriented Programming I (CS 2313) - 3 credit hours</li>
-                    <li>Object-Oriented Programming II (CS 2350) - 3 credit hours</li>
+                    <li>Object-Oriented Programming II (CS 2323) - 3 credit hours</li>
+                    <li>Computer Architecture (CS 2350) - 3 credit hours</li>
                     <li>Algorithms (CS 2315) - 3 credit hours</li>
-                    <li>Philosophy of Man (PL 1301) - 3 credit hours</li>
+                    <li>Intro to Philosophy (PL 1301) - 3 credit hours</li>
                     <li>Philosophy of God (PL 2301) - 3 credit hours</li>
-                    <li>Accounting Principles I (AC 2301) - 3 credit hours</li>
-                    <li>Accounting Principles II (AC 2302) - 3 credit hours</li>
-                    <li>Natural or Physical Sciences Elective - 3 credit hours</li>
-                    <li>Calculus I (MT 2323) - 3 credit hours</li>
+                    <li>Financial Accounting (AC 2301) - 3 credit hours</li>
+                    <li>Managerial Accounting (AC 2302) - 3 credit hours</li>
+                    <li>Natural or Physical Sciences - 3 credit hours</li>
+                    <li>Discrete Math Structures (MT 2323) - 3 credit hours</li>
                 </ul>
             </li>
             <li><strong>Third Year:</strong>
                 <ul>
-                    <li>Operating Systems (CS 3110) - 1 credit hour</li>
-                    <li>Database Systems (CS 3310) - 3 credit hours</li>
+                    <li>Junior CS Seminar (CS 3110) - 1 credit hour</li>
+                    <li>Database Systems Intro to Systems Analysis and Design (CS 3310) - 3 credit hours</li>
                     <li>Software Engineering (CS 3340) - 3 credit hours</li>
-                    <li>Microeconomics (EC 2303) - 3 credit hours</li>
-                    <li>Ethics in Computing (TH 1301) - 3 credit hours</li>
-                    <li>Foreign Language Elective - 3 credit hours</li>
+                    <li>Computer Networks (CS 3330) - 3 credit hours</li>
+                    <li>Files and Database (CS 3320) - 3 credit hours</li>
+                    <li>Introductory Microeconomic Theory (EC 2301) - 3 credit hours</li>
+                    <li>Introductory Microeconomic Theory (EC 2303) - 3 credit hours</li>
+                    <li>Introduction to Theology (TH 1301) - 3 credit hours</li>
+                    <li>Foreign Language - 3 credit hours</li>
                     <li>Advanced Theology - 3 credit hours</li>
-                    <li>History Elective - 3 credit hours</li>
+                    <li>Foreign Language - 3 credit hours</li>
                 </ul>
             </li>
             <li><strong>Fourth Year:</strong>
                 <ul>
-                    <li>Computer Networks (CS 3335) - 3 credit hours</li>
-                    <li>Senior Project (CS 4395) - 3 credit hours</li>
+                    <li>Survey of Programming Languages (CS 3335) - 3 credit hours</li>
+                    <li>Operating Systems (CS 3350) - 3 credit hours</li>
+                    <li>Senior CS seminar (CS 4110) - 1 credit hours</li>
                     <li>Business Elective (3000+) - 3 credit hours</li>
                     <li>Elective - 3 credit hours</li>
                     <li>Advanced Computer Science Elective (CS 43XX) - 3 credit hours</li>
                     <li>Elective - 3 credit hours</li>
+                    <li>History - 3 credit hours</li>
+                    <li>Elective - 3 credit hours</li>
+                    <li>Senior Project (CS 4395) - 3 credit hours</li>
                 </ul>
             </li>
         </ul>
