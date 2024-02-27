@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- STILL NEEDS TO BE CHANGED -->
 <!-- Feras Rabee -->
 <html lang="en">
 
@@ -91,10 +92,12 @@
         <a href="#news">Quiz</a>
     </div>
 
-    <!-- Page Content -->
-    <div id="theDiv2">
-        <!-- Page Title -->
-        <h1>Computer Science Professors</h1>
+     <!-- Page Content -->
+      <div style = "text-align:center">
+        <h1>
+          Computer Science Professors
+        </h1>
+    </div>
 
        <!-- Professor Carol Luckhardt Redfield -->
 <div class="professor">
@@ -118,11 +121,7 @@
         <li>E-Learning and Gamification (undergraduate and graduate)</li>
         <li>Oracle Programming (undergraduate and graduate)</li>
     </ul>
-    <!-- Club Engagement -->
-    <div class="club-info">
-        <h3>Club Engagement: Infinite Loops</h3>
-        <p>Infinite Loops (Computer Science Club) is a place for networking, having fun and learning about computers/programming within St. Mary’s University for students of all majors. It was initially founded for Computer Science majors to receive help from peers, but has since grown larger in scope.</p>
-    </div>
+   
 </div>
 
 
@@ -178,12 +177,7 @@
         <li>CISSP</li>
         <li>Web Programming</li>
     </ul>
-    <!-- Club Engagement -->
-    <div class="club-info">
-        <h3>Club Engagement: Buffer Overflow Club</h3>
-        <p>The Buffer Overflow club of St. Mary’s University is a group of students who are interested in cybersecurity. It is a place for networking and increasing students’ interest in cybersecurity careers and diversity in the cybersecurity workforce of the nation. The club welcomes students from different majors.</p>
-        
-    </div>
+   
 </div>
 
 
@@ -200,5 +194,3 @@
 </body>
 
 </html>
-
-
