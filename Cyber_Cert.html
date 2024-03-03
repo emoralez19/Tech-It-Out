@@ -1,0 +1,278 @@
+<!-- Carina Vlaun Last modified 03.03.2024-->
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <!--Link to the CSS stylesheet-->
+    <link rel="stylesheet" href="website.css">
+
+</head>
+<body>
+
+    <!--Image at the top of the navigation bar-->
+    <img src="/Users/pimpvlaun/Desktop/STEM_logo.png" class="center" />
+
+    <!-- add navigation bar code to the top of every file /> -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <!-- Dropdown for BS degrees -->
+        <div class="dropdown">
+            <button class="dropbtn">
+                BS Degrees ▼
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Computer Science</a>
+                <a href="#">Cybersecurity</a>
+                <a href="#">Game Development</a>
+                <a href="#">Data Science</a>
+            </div>
+        </div>
+        <!--BA degrees-->
+        <div class="dropdown">
+            <button class="dropbtn">
+                BA Degrees ▼
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Computer Information Systems</a>
+                <a href="#">Computer Science and Application Systems</a>
+                <a href="#">Computer Science with a Teacher Certification</a>
+            </div>
+        </div>
+        <!--MS Degrees-->
+        <div class="dropdown">
+            <button class="dropbtn">
+                MS Degrees ▼
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Computer Science</a>
+                <a href="#">Cybersecurity</a>
+                <a href="#">Computer Information Systems</a>
+            </div>
+        </div>
+        <!--Certifications-->
+        <div class="dropdown">
+            <button class="dropbtn">
+                Certifications ▼
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Educational Computer Gaming</a>
+                <a href="#">Cybersecurity</a>
+            </div>
+        </div>
+        <a href="#news">Minor</a>
+        <!--CS Department-->
+        <div class="dropdown">
+            <button class="dropbtn">
+                CS Department ▼
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Professors</a>
+                <a href="#">Clubs</a>
+            </div>
+        </div>
+        <a href="#news">Resources</a>
+        <a href="#news">Quiz</a>
+    </div>
+
+
+    <!--Adding empty spaces between the navigation bar and the introduction paragraph-->
+    <br />
+    <br />
+
+        <!--Introduction for  Cybersecurity Certification-->
+    <div id="theDiv2">
+        <br />
+        <br />
+    <!--Adding space between the box and photo-->
+        <img src="/Users/pimpvlaun/Downloads/Hanna Teaching Cyber Cert.jpg" alt="BS" style="width:50%" class="center">
+        <h1 style="text-align:center">Certificate in Cybersecurity </h1>
+        <h4 style="text-align:center">
+            The certificate program in Cybersecurity focuses on presenting students with the fundamental 
+            principles and hands-on experience of how to protect networks, computers, programs, and institutional 
+            data from attack, damage or unauthorized access. This program is designed to serve the needs of individuals
+             who would like to increase their knowledge and skill levels in the field of cybersecurity in a short time frame.
+
+            Students who successfully complete the certificate program are highly encouraged to continue and earn
+             their Master of Science degree in Cybersecurity by taking six additional courses and complete a capstone 
+             project or five additional courses and a thesis.
+        </h4>
+        <!--Adding empty spaces between the introduction and the degree plan-->
+    </div>
+    <br />
+    <br />
+    <br />
+
+
+
+<!-- stylization for the tables as well as having each table side by side -->
+<style>
+    *{
+        box-sizing: border-box;
+      }
+      
+      .row {
+        margin-left:-5px;
+        margin-right:-5px;
+      }
+        
+      .column {
+        float: left;
+        width: 50%;
+        padding: 15px;
+      }
+      
+      /* Clearfix (clear floats) */
+        .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      } 
+      
+      /* table settings */
+      table {
+        border-collapse: collapse; 
+        border-spacing: 0; 
+        width: 100%;
+        border: 2px solid #F0E68C;
+      }
+      
+      /* table header settings */
+      th {
+        text-align: left;
+        padding: 10px;
+      }
+      
+      /* table data settings */
+      td {
+        text-align: left;
+        padding: 10px; 
+      }
+      
+      /* sets the even rows background colour set to light sky blue */
+       tr:nth-child(even){
+        background-color: #87CEFA;
+      }
+
+      /* sets the odd rows background colour set to white */
+      tr:nth-child(odd)
+      {
+        background-color: white;
+      }
+
+      /* every even row the background colour is set to this gold colour */
+      tr:first-child {
+        background-color: #B8860B;
+      }
+
+      /* every even row the background colour is set to this light gold colour */
+      tr:nth-child(2){
+        background-color: #F0E68C;
+      }
+      
+      
+
+      /* mobile view for the tables if the screen is lower than 600 pixels wide then the
+         tables are placed on top of one another */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+      </style>
+
+
+<!-- splits the divs to two divs row and class will be used to show tables side by side-->
+<div class = "row">
+    <div class = "column">
+    <!-- Table for course schedule template-->
+    <table>
+        <!-- Course Requirements-->
+        <tr>
+            <th>Course Requirements-- Only Select 4 courses</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><b>Course Name</b></td>
+            <td><b>Semester Hours</b></td>
+            <td><b>Course Name</b></td>
+            <td><b>Semester Hours</b></td>
+        </tr>
+        <tr>
+            <td>CS 6361 Computer Network Security</td>
+            <td>3</td>
+            <td>CS 6362 Computer Security and Privacy</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>CS 6363 Cloud Computing Security</td>
+            <td>3</td>
+            <td>CS 6364 Digital Forensics and Cyber Crime</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>CS 6365 Preparation for Security Certification</td>
+            <td>3</td>
+            <td>CS 6367 Cybersecurity Risk Management</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>CS 6368 Cybersecuirty Policy and Law</td>
+            <td>3</td>
+            <td>CS 6369 Cryptography Principles and Practice</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>EG 7314 Software Security</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+        </tr>
+    </table>
+    <!-- end of the first column div-->
+</div>
+</div>
+    
+    <br />
+    <br />
+
+    <!--Calculated total hours of the BS Computer Science Program-->
+        <!--Adding empty spaces between the course schedule and the total hours calculated-->
+        <br />
+        <div id="theDiv3">
+            <h4 style="text-align:center">
+                Total Certificate Hours: 12
+            </h4>
+            <!--Adding empty spaces between the total number of hours calculated and the example jobs-->
+        </div>
+        <br />
+
+
+
+    <!--Adding spaces to allow view of the bottom of the page-->
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!--Footer section-->
+    <div id="footer">
+        <pre>Students interested in pursuing a degree at St. Mary's University should contact the Office of Admission</pre>
+        <pre><a href="mailto:udam@stmarytx.edu">udam@stmarytx.edu</a>  210-436-3126  800-367-7868
+        <br /> 1 Camino Santa Maria, San Antonio, Texas, 78228</pre>
+    </div>
+
+</body>
+</html>
