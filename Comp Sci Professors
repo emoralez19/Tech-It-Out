@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- STILL NEEDS TO BE CHANGED -->
 <!-- Feras Rabee -->
 <html lang="en">
 
@@ -11,9 +10,69 @@
     <!-- Link to Stylesheet -->
     <!-- TO BE UPDATED || PATH TO BE TESTED ONLY -->
     <link rel="stylesheet" href="file:///D:/StyleSheet1.css">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link to Stylesheet -->
+    <link rel="stylesheet" href="file:///D:/StyleSheet1.css"> <!-- Update the path to your CSS file -->
+ <!-- header image as well as header department-->
+    <body>
+        <!-- using a container able to have an image beside text-->
+        <div class="header_container">
+          <div class="header_image">
+            <img src="path_to_photo.jpg">
+          </div>
+          <div class="header_text">
+            <h1>St. Mary's Computer Science Department</h1>
+          </div>
+        </div>
+      </body>
     
     <!-- Title of the Page -->
     <title>Computer Science Professors</title>
+
+
+<!-- All Clsses to help understand better -->
+
+    <style>
+        body {
+            text-align: center; /* Center align body content */
+            margin: 0;
+            padding: 20px;
+        }
+
+        .navbar {
+            
+        }
+
+        h1 {
+           
+        }
+
+        .professor {
+            text-align: left; /* Left align professor sections */
+            margin-bottom: 30px;
+        }
+
+        .professor img {
+            float: left; /* Float professors' images to the left */
+            margin-right: 20px; /* Add margin to separate images from text */
+        }
+
+        .professor-info {
+
+            overflow: hidden; /* Clear the float */
+        }
+
+        }
+        
+
+        #footer {
+         
+        }
+    </style>
 </head>
 
 <body>
@@ -92,26 +151,24 @@
         <a href="#news">Quiz</a>
     </div>
 
-     <!-- Page Content -->
-      <div style = "text-align:center">
-        <h1>
-          Computer Science Professors
-        </h1>
+    <!-- Page Content -->
+    <div>
+        <h1>Computer Science Professors</h1>
     </div>
 
-       <!-- Professor Carol Luckhardt Redfield -->
-<div class="professor">
-    <h2>Carol Luckhardt Redfield, Ph.D.</h2>
-    <!-- Photo of the Professor || TO BE UPDATED || PATH TO BE TESTED ONLY -->
-    <img src="file:///C:\Users\fr2sq\Desktop\software engineering\redfield.jpg" alt="Professor Redfield Photo" class="center">
-    <!-- Contact Information -->
-    <p>Chair and Professor of Computer Science</p>
-    <p>Contact: <a href="mailto:credfield@stmarytx.edu">credfield@stmarytx.edu</a></p>
-    <p>Phone: 210-436-3298</p>
-    <!-- List of Classes Taught -->
-    <h3>Classes Taught:</h3>
-    <ul>
-        <li>Programming I</li>
+    <!-- Professor Carol Luckhardt Redfield -->
+    <div class="professor">
+        <h2>Carol Luckhardt Redfield, Ph.D.</h2>
+        <div class="professor-info">
+            <img src="file:///C:\Users\fr2sq\Desktop\software engineering\redfield.jpg" alt="Professor Redfield Photo">
+            <p>Chair and Professor of Computer Science</p>
+            <p>Contact: <a href="mailto:credfield@stmarytx.edu">credfield@stmarytx.edu</a></p>
+            <p>Phone: 210-436-3298</p>
+        </div>
+        <!-- List of Classes Taught -->
+        <h3>Classes Taught:</h3>
+        <ul>
+ <li>Programming I</li>
         <li>Programming II/Data Structures</li>
         <li>Software Engineering (undergraduate and graduate)</li>
         <li>Senior Project</li>
@@ -120,25 +177,21 @@
         <li>Computer Gaming (undergraduate and graduate)</li>
         <li>E-Learning and Gamification (undergraduate and graduate)</li>
         <li>Oracle Programming (undergraduate and graduate)</li>
-    </ul>
-   
+</ul>
 </div>
-
-
-
-        <!-- Professor Arthur Hanna -->
-        <div class="professor">
-            <h2>Arthur Hanna, Ph.D.</h2>
-            <!-- Photo of the Professor || TO BE UPDATED || PATH TO BE TESTED ONLY -->
-            <img src="file:///C:\Users\fr2sq\Desktop\software engineering\hanna.jpg" alt="Professor Hanna Photo" class="center">
-            <!-- Contact Information -->
+ <!-- Professor Arthur Hanna -->
+    <div class="professor">
+        <h2>Arthur Hanna, Ph.D.</h2>
+        <div class="professor-info">
+            <img src="file:///C:\Users\fr2sq\Desktop\software engineering\hanna.jpg" alt="Professor Hanna Photo">
             <p>Professor of Computer Science | Graduate Program Director of Computer Science and Computer Information Systems</p>
             <p>Contact: <a href="mailto:ahanna@stmarytx.edu">ahanna@stmarytx.edu</a></p>
             <p>Phone: 210-431-2021</p>
-            <!-- List of Classes Taught -->
-            <h3>Classes Taught:</h3>
-            <ul>
-                <li>Programming I</li>
+        </div>
+        <!-- List of Classes Taught -->
+        <h3>Classes Taught:</h3>
+        <ul>
+           <li>Programming I</li>
                 <li>Programming II/Data Structures</li>
                 <li>Object-Oriented Programming I</li>
                 <li>Object-Oriented Programming II</li>
@@ -151,21 +204,21 @@
                 <li>Mobile Programming</li>
                 <li>Senior Project</li>
                 <li>Foundations of Reflection: Nature (core course in science)</li>
-            </ul>
-        </div>
+        </ul>
+    </div>
 
-        <!-- Professor Ayad Barsoum -->
-<div class="professor">
-    <h2>Ayad Barsoum, Ph.D.</h2>
-    <!-- Photo of the Professor || TO BE UPDATED || PATH TO BE TESTED ONLY -->
-    <img src="file:///C:\Users\fr2sq\Desktop\software engineering\barsoum.jpg" alt="Professor Barsoum Photo" class="center">
-    <!-- Contact Information -->
-    <p>Associate Professor of Computer Science | Graduate Program Director of Cybersecurity and the Certificate in Cybersecurity | Director of NSA/DHS Designated Center for Cyber Excellence</p>
-    <p>Contact: <a href="mailto:abarsoum@stmarytx.edu">abarsoum@stmarytx.edu</a></p>
-    <p>Phone: 210-436-3315</p>
-    <!-- List of Classes Taught -->
-    <h3>Classes Taught:</h3>
-    <ul>
+    <!-- Professor Ayad Barsoum -->
+    <div class="professor">
+        <h2>Ayad Barsoum, Ph.D.</h2>
+        <div class="professor-info">
+            <img src="file:///C:\Users\fr2sq\Desktop\software engineering\barsoum.jpg" alt="Professor Barsoum Photo">
+            <p>Associate Professor of Computer Science | Graduate Program Director of Cybersecurity and the Certificate in Cybersecurity | Director of NSA/DHS Designated Center for Cyber Excellence</p>
+            <p>Contact: <a href="mailto:abarsoum@stmarytx.edu">abarsoum@stmarytx.edu</a></p>
+            <p>Phone: 210-436-3315</p>
+        </div>
+        <!-- List of Classes Taught -->
+        <h3>Classes Taught:</h3>
+        <ul>
         <li>Advanced Computer Networks</li>
         <li>Cryptography</li>
         <li>Files and Databases</li>
@@ -176,12 +229,7 @@
         <li>Network Security</li>
         <li>CISSP</li>
         <li>Web Programming</li>
-    </ul>
-   
-</div>
-
-
-
+        </ul>
     </div>
 
     <!-- Footer -->
