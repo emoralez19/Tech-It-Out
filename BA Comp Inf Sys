@@ -9,109 +9,56 @@
     
     <!-- Link to Stylesheet -->
     <link rel="stylesheet" href="file:///D:/StyleSheet1.css"> <!-- Update the path to your CSS file -->
-    
-    <!-- Title of the Page -->
-    <title>B.A. in Computer Information Systems</title>
-</head>
+ <!-- header image as well as header department-->
+    <body>
+        <!-- using a container able to have an image beside text-->
+        <div class="header_container">
+          <div class="header_image">
+            <img src="path_to_photo.jpg">
+          </div>
+          <div class="header_text">
+            <h1>St. Mary's Computer Science Department</h1>
+          </div>
+        </div>
+      </body>
 
-<body>
 
-    <!-- Navigation Bar -->
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        
-        <!-- BS Degrees Dropdown -->
-        <div class="dropdown">
-            <button class="dropbtn">
-                BS Degrees ▼
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="#">Computer Science</a>
-                <a href="#">Cybersecurity</a>
-                <a href="#">Game Development</a>
-                <a href="#">Data Science</a>
-            </div>
-        </div>
-        
-        <!-- BA Degrees Dropdown -->
-        <div class="dropdown">
-            <button class="dropbtn">
-                BA Degrees ▼
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="#">Computer Information Systems</a>
-                <a href="#">Computer Science and Application Systems</a>
-                <a href="#">Computer Science with a Teacher Certification</a>
-            </div>
-        </div>
-        
-        <!-- MS Degrees Dropdown -->
-        <div class="dropdown">
-            <button class="dropbtn">
-                MS Degrees ▼
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="#">Computer Science</a>
-                <a href="#">Cybersecurity</a>
-                <a href="#">Computer Information Systems</a>
-            </div>
-        </div>
-        
-        <!-- Certifications Dropdown -->
-        <div class="dropdown">
-            <button class="dropbtn">
-                Certifications ▼
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="#">Educational Computer Gaming</a>
-                <a href="#">Cybersecurity</a>
-            </div>
-        </div>
-        
-        <a href="#news">Minor</a>
-        
-        <!-- CS Department Dropdown -->
-        <div class="dropdown">
-            <button class="dropbtn">
-                CS Department ▼
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="#">Professors</a>
-                <a href="#">Clubs</a>
-            </div>
-        </div>
-        
-        <a href="#news">Resources</a>
-        <a href="#news">Quiz</a>
-    </div>
-
-    <!-- Page Content -->
-      <div style = "text-align:center">
+      <!-- BS Computer Science page title-->
+    <!-- adding spacing between the navigation bar and the title-->
+    <br /> 
+    <div style = "text-align:center">
         <h1>
-          BA Computer Information Systems
+          BA Computer Information Systems 
         </h1>
     </div>
 
-        <!-- Photo of Class -->
-        <img src="path_to_class_photo.jpg" alt="Class Photo" class="center">
+    <!-- adding spacing between the title and image-->
+    <br />
 
-        <!-- Description of the Program -->
-        <h4>Description of the Program</h4>
-        <p class="text">
+ <!-- sample image below the navigation bar and title -->
+    <body>
+    
+        <!-- using a container able to have an image beside text-->
+        <div class="sample_container">
+            <div class="sample_image">
+
+       <!-- Photo of Class -->
+        <img src="path_to_class_photo.jpg">
+            </div>
+        <div class = sample_text>
+        <!-- description of the degree-->
+        <h4 style ="text-align: center">
+
             The Bachelor of Arts in Computer Information Systems at St. Mary's University offers a comprehensive curriculum
             that combines technical expertise with a solid understanding of business principles. Students delve into programming,
             databases, software engineering, and more, preparing them for diverse roles in the rapidly evolving field of information systems.
-        </p>
-
-        <!-- List of Degree Plan -->
-       </div>
+        </h4>
+        </div>
+        </div>
+        <!--Adding empty spaces between the description and the example degree plan -->
     <br />
     <br />
+    </body>
 
 <!-- stylization for the tables as well as having each table side by side -->
     <style>
@@ -157,9 +104,9 @@
         padding: 10px; 
       }
       
-      /* sets the even rows background colour set to azure */
+      /* sets the even rows background colour set to light sky blue */
        tr:nth-child(even){
-        background-color: azure;
+        background-color: #87CEFA;
       }
 
       /* sets the odd rows background colour set to white */
@@ -168,9 +115,9 @@
         background-color: white;
       }
 
-      /* every even row the background colour is set to this dark gold colour */
+      /* every even row the background colour is set to this gold colour */
       tr:first-child {
-        background-color: #554d05;
+        background-color: #B8860B;
       }
 
       /* every even row the background colour is set to this light gold colour */
@@ -448,20 +395,26 @@
 </div>
 <!-- end of the row div above-->
 </div>
-
-        <!-- Total Number of Credit Hours -->
-        <h4>Total Number of Credit Hours: 120</h4>
+<!--Calculated total hours of the BS Computer Science Program-->
+    <!--Adding empty spaces between the course schedule and the total hours calculated-->
+    <br />
+    <div id="theDiv3">
+        <h4 style="text-align:center">
+            Total Degree Hours: 120
+        </h4>
+        <!--Adding empty spaces between the total number of hours calculated and the example jobs-->
+    </div>
+    <br />
+    <br />
 
      <!-- Example Job list-->
     <div id="theDiv4">
-        <h5 style="text-align:center">
-            <pre><b>List of Jobs one can obtain with a BS Computer Science Degree: </b></pre>
-            <pre>Software Developer</pre>
-            <pre>Database Administrator</pre>
-            <pre>Systems Analyst</pre>
-            <pre>IT Consultant</pre>
+        <h4 style="text-align:center">
+            <p>List of Jobs one can obtain with a BA Computer Information Systems Degree: </p>
+            <p>Software Developer</p>
+            <p>DataBase Administrator</p>
+            Systems Analyst
         </h>
-
     <!-- Adding empty spaces between the example job list and the footer section of the page-->
     </div>
     <br />
