@@ -9,23 +9,68 @@ body {
     background-color: #1B32A5; /* Dark Blue #00008B #233AAC*/
 }
 
+/* sets the image side by side for the header */
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 10px;
+   }
+
+/* sets the header image settings */
+div.header_image img
+{
+    width: 200px;
+    height: 150px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+/* sets the header text settings */
+   .header_text {
+    border-left: solid white 2px;
+   }
+
+/* sets the image side by side for the header */
+.sample_container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 10px;
+   }
+
+/* sets the header image settings */
+div.sample_image img
+{
+    width: 350px;
+    height: 225px;
+    padding-left: 75px;
+    padding-right: 30px;
+}
+
+/* sets the header text settings */
+   .sample_text {
+    border: solid white 2px;
+   }
+
+
 /*set font size for h1 */
  h1 {
     color: white;
     font-size: 28px;
     font-family: Garamond;
-
+    padding-left: 10px;
 }
+
 
 /* set font size and spacing for h4 */
 h4 {
     display: block;
-    font-size: 1.17em;
+    font-size: 1.30em;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 0;
     margin-right: 0;
-    font-weight: bold;
     color: white;
     font-family: Garamond;
     padding: 10px;
@@ -41,6 +86,7 @@ h5 {
     margin-right: 0;
     font-weight: bold;
     color: white;
+    font-family: Garamond;
 }
 
 /*set font size for td */
@@ -69,6 +115,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 /* set #theDiv tag settings */
 #theDiv {
     color: white;
@@ -81,7 +128,7 @@ html {
     margin-left: auto;
     margin-right: auto;
     color: white;
-    width: 1000px;
+    width: 800px;
     border: solid #F0E68C 2px;
 }
 
@@ -100,6 +147,7 @@ html {
     margin-right: auto;
     color: white;
     width: 600px;
+    height: 320px;
     border: solid #F0E68C 2px;
 }
 
@@ -108,6 +156,7 @@ img
 {
     width: 100px;
     height:200px;
+    
 }
 
 
@@ -117,14 +166,6 @@ img
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
-
-/* for centering smaller images */
-.center1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
 }
 
 
@@ -219,3 +260,120 @@ img
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/* Code from Albert Mendez for style of table
+for the course outline */
+
+<style >
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* table settings */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 2px solid #F0E68C;
+}
+
+/* table header settings */
+th {
+    text-align: left;
+    padding: 10px;
+}
+
+/* table data settings */
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+/* sets the even rows background colour set to azure */
+tr:nth-child(even) {
+    background-color: azure;
+}
+
+/* sets the odd rows background colour set to white */
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+/* every even row the background colour is set to this dark gold colour */
+tr:first-child {
+    background-color: #554d05;
+}
+
+/* every even row the background colour is set to this light gold colour */
+tr:nth-child(2) {
+    background-color: #F0E68C;
+}
+
+
+/*used for left margin photo on clubs page */
+#hp {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+
+/* Style social media icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+    /* Add a hover effect to social media icon */
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+/* Set a specific color for social media icon*/
+/* Instagram colors */
+.fa-instagram {
+    background: #c6146d;
+    color: white;
+}
+
+/*used for round social media icons on clubs page */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/*used for header on clubs/organizations page*/
+.three h1 {
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+    text-align: center;
+    position: relative;
+}
+    
