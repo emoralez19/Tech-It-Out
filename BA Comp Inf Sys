@@ -21,8 +21,76 @@
           </div>
         </div>
       </body>
-
-
+ <!-- Navigation Bar done by Eli-->
+    <body>
+        <!--Navigation Bar settings with drop down categories-->
+        <div class="navbar">
+            <a href="index.html">Home</a>
+                <!-- Dropdown for BS degrees -->
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        BS Degrees ▼
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Computer Science</a>
+                        <a href="#">Cybersecurity</a>
+                        <a href="#">Game Development</a>
+                        <a href="#">Data Science</a>
+                    </div>
+                </div>
+                <!--BA degrees-->
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        BA Degrees ▼
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Computer Information Systems</a>
+                        <a href="#">Computer Science and Application Systems</a>
+                        <a href="BA_TeacherCert.html">Computer Science with a Teacher Certification</a>
+                    </div>
+                </div>
+                <!--MS Degrees-->
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        MS Degrees ▼
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Computer Science</a>
+                        <a href="#">Cybersecurity</a>
+                        <a href="#">Computer Information Systems</a>
+                    </div>
+                </div>
+                <!--Certifications-->
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        Certifications ▼
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Educational Computer Gaming</a>
+                        <a href="#">Cybersecurity</a>
+                    </div>
+                </div>
+                <a href="#news">Minor</a>
+                <!--CS Department-->
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        CS Department ▼
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Professors</a>
+                        <a href="#">Clubs</a>
+                    </div>
+                </div>
+                <a href="#news">Resources</a>
+                <a href="#news">Quiz</a>
+            </div>
+        </div>
+    </body>
       <!-- BS Computer Science page title-->
     <!-- adding spacing between the navigation bar and the title-->
     <br /> 
