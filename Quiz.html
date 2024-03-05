@@ -3,11 +3,11 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Link to the CSS stylesheet-->
-    <link rel="stylesheet" href="StyleSheet1.css">
-</head>
-<body>
+    <link rel="stylesheet" href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\QuizStyleSheet.css">
+    <link rel="stylesheet" href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\StyleSheet1.css">
+
     <!-- add navigation bar code to the top of every file /> -->
     <div class="navbar">
         <a href="index.html">Home</a>
@@ -75,5 +75,18 @@
         <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\Quiz.html">Quiz</a>
     </div>
 
+    <script src="Quiz.js" defer></script>
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="question-container">
+            <h3 id="question">Question</h3>
+            <div id="answer-buttons"></div>
+        </div>
+        <button id="next-btn" class="btn hide">Next</button>
+        <div id="result" class="hide"></div>
+        <button id="restart-btn" class="btn hide">Restart</button>
+    </div>
 </body>
 </html>

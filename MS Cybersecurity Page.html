@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <!--Link to the CSS stylesheet-->
+        <link rel="stylesheet" href="StyleSheet1.css">
+    </head>
+
+    <!-- header image as well as header department-->
+    <body>
+        <!-- using a container able to have an image beside text-->
+        <div class="header_container">
+          <div class="header_image">
+            <img src="C:\Users\eliza\OneDrive\Desktop\Tech It Out\Pictures\departmentLogo.jpg">
+          </div>
+          <div class="header_text">
+            <h1>St. Mary's Computer Science Department</h1>
+          </div>
+        </div>
+      </body>
+        
+    <!-- Navigation Bar done by Eli-->
+    <body>
+        <!-- add navigation bar code to the top of every file /> -->
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <!-- Dropdown for BS degrees -->
+            <div class="dropdown">
+                <button class="dropbtn">
+                    BS Degrees ▼
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\BS Computer Science Page .html">Computer Science</a>
+                    <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\BS Cybersecurity Page.html">Cybersecurity</a>
+                    <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\CS game track.html">Game Development</a>
+                    <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\BS Data Science.html">Data Science</a>
+                </div>
+            </div>
+            <!--BA degrees-->
+            <div class="dropdown">
+                <button class="dropbtn">
+                    BA Degrees ▼
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\BA Comp Inf Sys.html">Computer Information Systems</a>
+                    <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\BA CS and AS.html">Computer Science and Application Systems</a>
+                    <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\BA_TC.html">Computer Science with a Teacher Certification</a>
+                </div>
+            </div>
+            <!--MS Degrees-->
+            <div class="dropdown">
+                <button class="dropbtn">
+                    MS Degrees ▼
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\MS_CS.html">Computer Science</a>
+                    <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\MS Cybersecurity Page.html">Cybersecurity</a>
+                    <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\MS CIS.html">Computer Information Systems</a>
+                </div>
+            </div>
+            <!--Certifications-->
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Certifications ▼
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\EduGameCert.html">Educational Computer Gaming</a>
+                    <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\Cyber_Cert.html">Cybersecurity</a>
+                </div>
+            </div>
+            <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\ComputerScienceMinor.html">Minor</a>
+            <!--CS Department-->
+            <div class="dropdown">
+                <button class="dropbtn">
+                    CS Department ▼
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\Comp Sci Professors .html">Professors</a>
+                    <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\clubs_orgs.html">Clubs</a>
+                </div>
+            </div>
+            <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\outside_resources.html">Resources</a>
+            <a href="C:\Users\eliza\OneDrive\Desktop\Tech It Out\Quiz.html">Quiz</a>
+        </div>
+
+        <!-- BS Computer Science page title-->
+        <!-- adding spacing between the navigation bar and the title-->
+        <br />
+        <div style="text-align:center">
+            <h1>
+                M.S. in Cybersecurity
+            </h1>
+        </div>
+
+        <!-- adding spacing between the title and image-->
+        <br />
+
+        <!-- sample image below the navigation bar and title -->
+
+
+            <!-- using a container able to have an image beside text-->
+            <div class="sample_container">
+                <div class="sample_image">
+                    <img src="C:\Users\eliza\OneDrive\Desktop\Tech It Out\Pictures\departmentLogo.jpg">
+                </div>
+                <div class=sample_text>
+                    <!-- description of the degree-->
+                    <h4 style="text-align: center">
+                        The Cybersecurity Master's Program at St. Mary's University is one of the many programs offered by the
+                        Computer Science Department. Headed by Dr. Ayad Barsoum this program goes over the many cybersecurity threats
+                        via hands on experience. This master's program shares similarities with our BS Computer Science Cybersecurity track,
+                        the program delves deeper into the subject matter. Through comprehensive coursework and hands-on experiences,
+                        students gain a thorough understanding of digital systems and data threats. This immersive approach not only
+                        familiarizes students with the material but also allows them to witness the real-world impact of various cyber
+                        threats firsthand.
+                    </h4>
+                </div>
+            </div>
+            <!--Adding empty spaces between the description and the example degree plan -->
+            <br />
+            <br />
+        </body>
+
+        <!-- stylization for the tables as well as having each table side by side -->
+        <style>
+               * {
+                   box-sizing: border-box;
+               }
+
+               .row {
+                   margin-left: -5px;
+                   margin-right: -5px;
+               }
+
+               .column {
+                   float: left;
+                   width: 50%;
+                   padding: 15px;
+               }
+
+               /* Clearfix (clear floats) */
+               .row::after {
+                   content: "";
+                   clear: both;
+                   display: table;
+               }
+
+               /* table settings */
+               table {
+                   border-collapse: collapse;
+                   border-spacing: 0;
+                   width: 100%;
+                   border: 2px solid #F0E68C;
+               }
+
+               /* table header settings */
+               th {
+                   text-align: left;
+                   padding: 10px;
+               }
+
+               /* table data settings */
+               td {
+                   text-align: left;
+                   padding: 10px;
+               }
+
+               /* sets the even rows background colour set to light sky blue */
+               tr:nth-child(even) {
+                   background-color: #87CEFA;
+               }
+
+               /* sets the odd rows background colour set to white */
+               tr:nth-child(odd) {
+                   background-color: white;
+               }
+
+               /* every even row the background colour is set to this gold colour */
+               tr:first-child {
+                   background-color: #B8860B;
+               }
+
+               /* every even row the background colour is set to this light gold colour */
+               tr:nth-child(2) {
+                   background-color: #F0E68C;
+               }
+
+               /* every even row the background colour is set to this light gold colour */
+               tr:nth-child(10) {
+                   background-color: #F0E68C;
+               }
+
+               /* every even row the background colour is set to this light gold colour */
+               tr:nth-child(16) {
+                   background-color: #F0E68C;
+               }
+
+
+               /* mobile view for the tables if the screen is lower than 600 pixels wide then the
+            tables are placed on top of one another */
+               @media screen and (max-width: 600px) {
+                   .column {
+                       width: 100%;
+                   }
+               }
+        </style>
+
+        <!-- splits the divs to two divs row and class will be used to show tables side by side-->
+        <div class="row">
+            <div class="column">
+                <!-- Table for course schedule template-->
+                <table>
+                    <!-- project option-->
+                    <tr>
+                        <th>Project Option</th>
+                        <th></th>
+                        <th></th>
+                    <tr>
+                        <td><b>Foundational Courses (Required)</b></td>
+                        <td></td>
+                        <td><b>Hours</b></td>
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td>CS 6330</td>
+                        <td>Advanced Computer Networks</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 6361</td>
+                        <td>Computer Network Security</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 6362</td>
+                        <td>Computer Security and Privacy</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 6364</td>
+                        <td>Digital Forensics and Cyber Crime</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 6368</td>
+                        <td>Cybersecurity Policy and Law</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 6369</td>
+                        <td>Cryptography Principles and Practice</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 7314</td>
+                        <td>Software Security</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><b>Elective Courses</b></td>
+                        <td><b>Select 3</b></td>
+                        <td><b>9</b></td>
+                    </tr>
+                    <tr>
+                        <td>CS 6363</td>
+                        <td>Cloud Computing</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 6365</td>
+                        <td>Preparation for Security Certification</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 6367</td>
+                        <td>Cybersecurity Risk Management</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>EG 6335</td>
+                        <td>Wireless Security</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 6385</td>
+                        <td>Internship</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><b>Capstone</b></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>CS 6395</td>
+                        <td>Capstone Project</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <!-- empty row for spacing/formatting &nbsp; is used to prevent collapsing the row-->
+                        <td>&nbsp;</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Total Degree Hours</td>
+                        <td></td>
+                        <td>33</td>
+                    </tr>
+                </table>
+                <!-- end of the first column div-->
+            </div>
+
+
+            <!-- begin the second column div-->
+            <div class="column">
+                <!-- Thesis option -->
+                <table>
+                    <tr>
+                        <th>Thesis Option</th>
+                        <th></th>
+                        <th></th>
+                    <tr>
+                        <td><b>Foundational Courses (Required)</b></td>
+                        <td></td>
+                        <td><b>Hours</b></td>
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td>CS 6330</td>
+                        <td>Advanced Computer Networks</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 6361</td>
+                        <td>Computer Network Security</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 6362</td>
+                        <td>Computer Security and Privacy</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 6364</td>
+                        <td>Digital Forensics and Cyber Crime</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 6368</td>
+                        <td>Cybersecurity Policy and Law</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 6369</td>
+                        <td>Cryptography Principles and Practice</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 7314</td>
+                        <td>Software Security</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><b>Elective Courses</b></td>
+                        <td><b>Select 2</b></td>
+                        <td><b>6</b></td>
+                    </tr>
+                    <tr>
+                        <td>CS 6363</td>
+                        <td>Cloud Computing</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 6365</td>
+                        <td>Preparation for Security Certification</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 6367</td>
+                        <td>Cybersecurity Risk Management</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>EG 6335</td>
+                        <td>Wireless Security</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 6385</td>
+                        <td>Internship</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><b>Thesis</b></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>CS 6391</td>
+                        <td>Thesis I</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CS 6392</td>
+                        <td>Thesis II</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Total Degree Hours</td>
+                        <td></td>
+                        <td>33</td>
+                    </tr>
+                </table>
+                <!-- end the second column div above-->
+            </div>
+            <!-- end of the row div above-->
+        </div>
+
+        <!--Calculated total hours of the BS Computer Science Program-->
+        <!--Adding empty spaces between the course schedule and the total hours calculated-->
+        <br />
+        <div id="theDiv3">
+            <h4 style="text-align:center">
+                Total Degree Hours: 120
+            </h4>
+            <!--Adding empty spaces between the total number of hours calculated and the example jobs-->
+        </div>
+        <br />
+        <br />
+
+        <!-- Example Job list-->
+        <div id="theDiv4">
+            <h4 style="text-align:center">
+                <p>List of Jobs one can obtain with a BS Computer Science Cybersecurity Track Degree: </p>
+                <p>Cybersecurity Manager</p>
+                <p>Forensic Analyst</p>
+                Penetration Tester
+                </h>
+                <!-- Adding empty spaces between the example job list and the footer section of the page-->
+        </div>
+        <br />
+
+
+        <!--Footer section made by Eli-->
+        <div id="footer">
+            <pre>Students interested in pursuing a degree at St. Mary's University should contact the Office of Admission</pre>
+            <pre><a href="mailto:udam@stmarytx.edu">udam@stmarytx.edu</a>  210-436-3126  800-367-7868
+            <br /> 1 Camino Santa Maria, San Antonio, Texas, 78228</pre>
+        </div>
+</html>
