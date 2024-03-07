@@ -90,16 +90,33 @@
 
 
     <!-- Title of the page-->
+    <!-- using a container able to have an image beside text-->
+    <!--Possible delete-->
     <div style="text-align: center">
         <h1>Certificate in Educational Computer Gaming</h1>
+    </div>
+    <div class="sample_container">
+        <div class="sample_image">
+            <img src="C:\Users\eliza\OneDrive\Desktop\Tech It Out\Pictures\bs_comp_sci.jpg">
+        </div>
+        <div class=sample_text>
+            <!-- description of the degree-->
+            <h4 style="text-align: center">
+                In this graduate certificate program, students will learn to design, create, and evaluate educational
+                computer games. Students will create at least two educational games and learn about the gamification of
+                instruction throughout the courses of this certificate.
+                <br />
+                <br />
+                To participate in a graduate certificate, students must have an undergraduate degree in a techology-
+                related field (or equivalent experience) and have completed at least two computer programming courses
+                with a B- or better.
+            </h4>
+        </div>
     </div>
 
     <!-- Breaks to separate title and beginning of information-->
     <br />
     <br />
-
-    <!--Picture for track-->
-    <img src="C:\Users\eliza\OneDrive\Desktop\Tech It Out\Pictures\departmentLogo.jpg" class="center1">
 
     <!--Code for degree plan provided by Albert-->
     <!-- stylization for the tables as well as having each table side by side -->
@@ -186,86 +203,57 @@
         }
     </style>
 
-    <!-- splits the divs to two divs row and class descriptions will be side by side -->
+
+    <!-- Table for course schedule template provided by Albert-->
+    <!-- splits the divs to two divs row and column tables will be side by side -->
     <div class="row">
         <div class="column">
-            <!--Description of the track-->
-            <br />
-            <br />
-            <div id="theDiv2">
-                <h4 style="text-align: center">
-                    In this graduate certificate program, students will learn to design, create, and evaluate educational
-                    computer games. Students will create at least two educational games and learn about the gamification of
-                    instruction throughout the courses of this certificate.
-                </h4>
-            </div>
-        </div>
-        <br />
-        <br />
-        <div class="column">
-            <div id="theDiv2">
-                <h4 style="text-align: center">
-                    To participate in a graduate certificate, students must have an undergraduate degree in a techology-
-                    related field (or equivalent experience) and have completed at least two computer programming courses
-                    with a B- or better.
-                </h4>
-            </div>
-        </div>
-    </div>
-</body>
-            <br />
-            <br />
-
-        <!-- Table for course schedule template provided by Albert-->
-        <!-- splits the divs to two divs row and column tables will be side by side -->
-        <div class = "row">    
-            <div class="column">
-                <!-- Required Courses-->
-                <table>
-                    <tr>
-                        <th>Required Courses</th>
-                        <th></th>
-                        <th></th>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td><b>Hours</b></td>
-                    </tr>
-                    <tr>
-                        <td>CS 6335</td>
-                        <td>Game Development</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>CS 6345</td>
-                        <td>eLearning and Gamification</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <!-- empty row for spacing/formatting &nbsp; is used to prevent collapsing the row-->
-                        <td>&nbsp;</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <!-- empty row for spacing/formatting &nbsp; is used to prevent collapsing the row-->
-                        <td>&nbsp;</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <!-- empty row for spacing/formatting &nbsp; is used to prevent collapsing the row-->
-                        <td>&nbsp;</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <!-- empty row for spacing/formatting &nbsp; is used to prevent collapsing the row-->
-                        <td>&nbsp;</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
+            <!-- Required Courses-->
+            <table>
+                <tr>
+                    <th>Required Courses</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><b>Hours</b></td>
+                </tr>
+                <tr>
+                    <td>CS 6335</td>
+                    <td>Game Development</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>CS 6345</td>
+                    <td>eLearning and Gamification</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <!-- empty row for spacing/formatting &nbsp; is used to prevent collapsing the row-->
+                    <td>&nbsp;</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <!-- empty row for spacing/formatting &nbsp; is used to prevent collapsing the row-->
+                    <td>&nbsp;</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <!-- empty row for spacing/formatting &nbsp; is used to prevent collapsing the row-->
+                    <td>&nbsp;</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <!-- empty row for spacing/formatting &nbsp; is used to prevent collapsing the row-->
+                    <td>&nbsp;</td>
+                    <td></td>
+                    <td></td>
+                </tr>
             </table>
             <!-- end of the first column div-->
         </div>
@@ -319,7 +307,9 @@
         <!-- end of the row div above-->
     </div>
 
-    <dl style="color:white" class="center1">*Any research work in these classes must be related to educational gaming*</dl>
+    <div style="text-align: center">
+        <pre style="color:white">*Any research work in these classes must be related to educational gaming*</pre>
+    </div>
     <br />
     <br />
 
