@@ -54,6 +54,7 @@ div.sample_image img
    }
 
 
+
 /*set font size for h1 */
  h1 {
     color: white;
@@ -151,6 +152,8 @@ html {
     border: solid #F0E68C 2px;
 }
 
+
+
 /*For sizing all images*/
 img
 {
@@ -188,6 +191,16 @@ img
     background-color: #F0E68C;
     color: black;
     text-align: center;
+}
+
+
+/* sets the outside resources image sizes */
+div.resource_image img
+{
+    width: 250px;
+    height: 200px;
+    padding-left: 50px;
+    padding-right: 30px;
 }
 
 /*-------------------------------- Navigation bar settings --------------------------------*/
@@ -231,6 +244,11 @@ img
         background-color: #BDB76B; /*Dark Khaki*/
     }
 
+    /* highlight the current navigation bar */
+    .navbar .current{
+        background-color: black;
+    }
+
 /* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
@@ -261,73 +279,9 @@ img
     display: block;
 }
 
-/* Code from Albert Mendez for style of table
-for the course outline */
-
-<style >
-* {
-    box-sizing: border-box;
-}
-
-.row {
-    margin-left: -5px;
-    margin-right: -5px;
-}
-
-.column {
-    float: left;
-    width: 50%;
-    padding: 15px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/* table settings */
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    border: 2px solid #F0E68C;
-}
-
-/* table header settings */
-th {
-    text-align: left;
-    padding: 10px;
-}
-
-/* table data settings */
-td {
-    text-align: left;
-    padding: 10px;
-}
-
-/* sets the even rows background colour set to azure */
-tr:nth-child(even) {
-    background-color: azure;
-}
-
-/* sets the odd rows background colour set to white */
-tr:nth-child(odd) {
-    background-color: white;
-}
-
-/* every even row the background colour is set to this dark gold colour */
-tr:first-child {
-    background-color: #554d05;
-}
-
-/* every even row the background colour is set to this light gold colour */
-tr:nth-child(2) {
-    background-color: #F0E68C;
-}
 
 
+/*-------------------------------- Clubs and Organizations settings --------------------------------*/
 /*used for left margin photo on clubs page */
 #hp {
     float: left;
@@ -354,6 +308,8 @@ tr:nth-child(2) {
 .fa-instagram {
     background: #c6146d;
     color: white;
+    display: block;
+    margin: 0 auto;
 }
 
 /*used for round social media icons on clubs page */
@@ -376,4 +332,148 @@ tr:nth-child(2) {
     text-align: center;
     position: relative;
 }
-    
+
+#div5 {
+    max-width: 800px; /* Set the maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding to the container */
+}
+
+/* sets the clubs and organization image sizes */
+div.club_image img
+{
+    width: 250px;
+    height: 200px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+
+/*-------------------------------- Quiz CSS settings --------------------------------*/
+/* start conetainer */
+.start-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* start container paragraph settings */
+.start-container h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.start-container p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* start container button hover settings*/
+.start-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    padding: 20px 75px; /*Increase padding for a larger button */
+    background-color: gold; /* Change color to gold */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* start container button hover settings*/
+.start-container button:hover {
+    background-color: #4b4103; /* Darken the gold color slightly on hover */
+}
+
+
+/* quiz container */
+#quizContainer {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* quiz title */
+#quizContainer h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* question settings */
+#question {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* options settings */
+#options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* option label */
+#options label {
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* submission button */
+#submit-btn {
+    display: block;
+    margin: 0 auto; /* Center the button */
+    padding: 20px 75px; /*Increase padding for a larger button */
+    font-size: 16px;
+    background-color: gold; /* Change color to gold */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* submission button hover effect */
+#submit-btn:hover {
+    background-color: #4b4103; /* Darken the gold color slightly on hover */
+}
+
+/* hide settings */
+#hide
+{
+    display: none;
+}
+
+/* result settings */
+#result
+{
+    margin: 2rem auto;
+}
+
+/* question and result settings */
+#question, #result
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
