@@ -23,7 +23,7 @@ div.header_image img
     width: 200px;
     height: 150px;
     padding-left: 20px;
-    padding-right: 30px;
+    padding-right: 30px; 
 }
 
 /* sets the header text settings */
@@ -31,7 +31,7 @@ div.header_image img
     border-left: solid white 2px;
    }
 
-/* sets the image side by side for the header */
+/* sets the image side by side for the sample */
 .sample_container {
     display: flex;
     align-items: center;
@@ -39,11 +39,12 @@ div.header_image img
     padding-bottom: 10px;
    }
 
-/* sets the header image settings */
+/* sample header settings */
 div.sample_image img
 {
     width: 350px;
-    height: 225px;
+    height: 225px; 
+
     padding-left: 75px;
     padding-right: 30px;
 }
@@ -139,7 +140,7 @@ html {
     margin-right: auto;
     color: white;
     width: 300px;
-    border: solid #F0E68C 2px;
+    border: solid #F0E68C 2px; 
 }
 
 /* set #theDiv4 tag settings */
@@ -217,7 +218,7 @@ div.resource_image img
         font-size: 20px;
         color: black;
         text-align: center;
-        padding: 14px 16px;
+        padding: 24px 16px;
         text-decoration: none;
     }
 
@@ -233,7 +234,7 @@ div.resource_image img
         border: none;
         outline: none;
         color: black;
-        padding: 14px 16px;
+        padding: 17px 16px; 
         background-color: inherit;
         font-family: inherit; /* Important for vertical align on mobile phones */
         margin: 0; /* Important for vertical align on mobile phones */
@@ -256,7 +257,7 @@ div.resource_image img
     background-color: #F0E68C; /*Khaki*/
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 1; 
 }
 
     /* Links inside the dropdown */
@@ -278,6 +279,7 @@ div.resource_image img
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 
 
 
@@ -347,7 +349,6 @@ div.club_image img
     padding-left: 50px;
     padding-right: 30px;
 }
-
 
 /*-------------------------------- Quiz CSS settings --------------------------------*/
 /* start conetainer */
