@@ -1,0 +1,444 @@
+﻿﻿/*set text color for paragraphs */
+p {
+  color: white;
+  font-family: Garamond;
+}
+
+/*set background color */
+body {
+  background-color: #1B32A5; /* Dark Blue #00008B #233AAC*/
+}
+
+/* sets the image side by side for the header */
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-bottom: 10px;
+ }
+
+/* sets the header image settings */
+div.header_image img
+{
+  width: 200px;
+  height: 150px;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+/* sets the header text settings */
+ .header_text {
+  border-left: solid white 2px;
+ }
+
+/* sets the image side by side for the header */
+.sample_container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-bottom: 10px;
+ }
+
+/* sets the header image settings */
+div.sample_image img
+{
+  width: 350px;
+  height: 225px;
+  padding-left: 75px;
+  padding-right: 30px;
+}
+
+/* sets the header text settings */
+ .sample_text {
+  border: solid white 2px;
+ }
+
+
+/*set font size for h1 */
+h1 {
+  color: white;
+  font-size: 28px;
+  font-family: Garamond;
+  padding-left: 10px;
+}
+
+
+/* set font size and spacing for h4 */
+h4 {
+  display: block;
+  font-size: 1.30em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  color: white;
+  font-family: Garamond;
+  padding: 10px;
+}
+
+/* sent font size and spacing for h5 */
+h5 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: white;
+  font-family: Garamond;
+}
+
+/*set font size for td */
+td {
+  color: black;
+  font-size: 16px;
+  font-family: Garamond;
+
+}
+
+/*set font size for th */
+th {
+  color: black;
+  font-size: 20px;
+  font-family: Garamond;
+}
+
+/* set font size for text */
+.text {
+  color: #F8F8FF;
+  font-family: Garamond;
+}
+
+/* set html scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* set #theDiv tag settings */
+#theDiv {
+  color: white;
+  width: 300px;
+  border: solid #F0E68C 2px;
+}
+
+/* set #theDiv2 tag settings */
+#theDiv2 {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  width: 800px;
+  border: solid #F0E68C 2px;
+}
+
+/* set #theDiv3 tag settings */
+#theDiv3 {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  width: 300px;
+  border: solid #F0E68C 2px;
+}
+
+/* set #theDiv4 tag settings */
+#theDiv4 {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  width: 600px;
+  height: 320px;
+  border: solid #F0E68C 2px;
+}
+
+/*For sizing all images*/
+img
+{
+  width: 100px;
+  height:200px;
+  
+}
+
+
+/* For centering images*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+/*For putting three images side to side*/
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+/*-------------------------------- Footer settings --------------------------------*/
+
+footer{
+  background-color: #F0E68C;
+}
+.footerContainer{
+  width: 100%;
+  padding: 70px 30px 20px ;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding:  10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+  position:center;
+    top: calc(50% - 10px); /* 50% - 3/4 of icon height */
+}
+.socialIcons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0,9;
+}
+/* Hover affect on social media icon */
+
+.footerNav{
+  margin: 30px;
+}
+
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footerNav ul li a{
+  color:rgb(0, 0, 0);
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+
+@media (max-width: 700px){
+  .footerNav ul{
+      flex-direction: column;
+  } 
+  .footerNav ul li{
+      width:100%;
+      text-align: center;
+      margin: 5px;
+  }
+  .socialIcons a{
+      padding: 8px;
+      margin: 4px;
+  }
+}
+
+/*-------------------------------- Navigation bar settings --------------------------------*/
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #F0E68C; /*Khaki*/
+  font-family: Garamond;
+}
+
+  /* Links inside the navbar */
+  .navbar a {
+      float:left;
+      font-size: 20px;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+  /* Dropdown button */
+  .dropdown .dropbtn {
+      font-size: 20px;
+      border: none;
+      outline: none;
+      color: black;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit; /* Important for vertical align on mobile phones */
+      margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  /* Add a background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color: #BDB76B; /*Dark Khaki*/
+  }
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F0E68C; /*Khaki*/
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+  }
+
+      /* Add a background color to dropdown links on hover */
+      .dropdown-content a:hover {
+          background-color: #BDB76B; /*Dark Khaki*/
+      }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Code from Albert Mendez for style of table
+for the course outline */
+
+<style >
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* table settings */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 2px solid #F0E68C;
+}
+
+/* table header settings */
+th {
+  text-align: left;
+  padding: 10px;
+}
+
+/* table data settings */
+td {
+  text-align: left;
+  padding: 10px;
+}
+
+/* sets the even rows background colour set to azure */
+tr:nth-child(even) {
+  background-color: azure;
+}
+
+/* sets the odd rows background colour set to white */
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+/* every even row the background colour is set to this dark gold colour */
+tr:first-child {
+  background-color: #554d05;
+}
+
+/* every even row the background colour is set to this light gold colour */
+tr:nth-child(2) {
+  background-color: #F0E68C;
+}
+
+
+/*used for left margin photo on clubs page */
+#hp {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+
+/* Style social media icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+  /* Add a hover effect to social media icon */
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+/* Set a specific color for social media icon*/
+/* Instagram colors */
+.fa-instagram {
+  background: #ffffff;
+  color: #060303;
+}
+
+/*used for round social media icons on clubs page */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/*used for header on clubs/organizations page*/
+.three h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  padding-bottom: 15px;
+  text-align: center;
+  position: relative;
+}
