@@ -270,7 +270,7 @@ footer{
       font-size: 20px;
       color: black;
       text-align: center;
-      padding: 14px 16px;
+      padding: 24px 16px;
       text-decoration: none;
   }
 
@@ -286,7 +286,7 @@ footer{
       border: none;
       outline: none;
       color: black;
-      padding: 14px 16px;
+      padding: 17px 16px;
       background-color: inherit;
       font-family: inherit; /* Important for vertical align on mobile phones */
       margin: 0; /* Important for vertical align on mobile phones */
