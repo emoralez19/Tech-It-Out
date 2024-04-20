@@ -1,385 +1,467 @@
 ﻿﻿/*set text color for paragraphs */
 p {
-  color: white;
-  font-family: Garamond;
+    color: white;
+    font-family: Garamond;
 }
 
 /*set background color */
 body {
-  background-color: #1B32A5; /* Dark Blue #00008B #233AAC*/
+    background-color: #1B32A5; /* Dark Blue #00008B #233AAC*/
 }
 
 /* sets the image side by side for the header */
 .header_container {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  padding-bottom: 10px;
- }
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 10px;
+   }
 
 /* sets the header image settings */
 div.header_image img
 {
-  width: 200px;
-  height: 150px;
-  padding-left: 20px;
-  padding-right: 30px;
+    width: 200px;
+    height: 150px;
+    padding-left: 20px;
+    padding-right: 30px; 
+    margin-top: 20px;
 }
 
 /* sets the header text settings */
- .header_text {
-  border-left: solid white 2px;
- }
+   .header_text {
+    border-left: solid white 2px;
+   }
 
-/* sets the image side by side for the header */
+/* sets the image side by side for the sample */
 .sample_container {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  padding-bottom: 10px;
- }
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 10px;
+   
+   }
 
-/* sets the header image settings */
+/* sample header settings */
 div.sample_image img
 {
-  width: 350px;
-  height: 225px;
-  padding-left: 75px;
-  padding-right: 30px;
+    width: 350px;
+    height: 225px; 
+
+    padding-left: 75px;
+    padding-right: 30px;
 }
 
 /* sets the header text settings */
- .sample_text {
-  border: solid white 2px;
- }
+   .sample_text {
+    border: solid white 2px;
+    padding: 5px;
+    margin-right: 20px;
+   }
+
+
+.job_container {
+    display: flex;
+    flex-wrap: wrap; /* Ensure flex items wrap to the next line */
+    justify-content: space-between; /* Add space between columns */
+}
+
 
 
 /*set font size for h1 */
-h1 {
-  color: white;
-  font-size: 28px;
-  font-family: Garamond;
-  padding-left: 10px;
+ h1 {
+    color: white;
+    font-size: 28px;
+    font-family: Garamond;
+    padding-left: 10px;
 }
 
 
 /* set font size and spacing for h4 */
 h4 {
-  display: block;
-  font-size: 1.30em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  color: white;
-  font-family: Garamond;
-  padding: 10px;
+    display: block;
+    font-size: 1.30em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    font-family: Garamond;
+    padding: 10px;
 }
 
 /* sent font size and spacing for h5 */
 h5 {
-  display: block;
-  font-size: 1.17em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-  color: white;
-  font-family: Garamond;
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: white;
+    font-family: Garamond;
 }
 
 /*set font size for td */
 td {
-  color: black;
-  font-size: 16px;
-  font-family: Garamond;
+    color: black;
+    font-size: 16px;
+    font-family: Garamond;
 
 }
 
 /*set font size for th */
 th {
-  color: black;
-  font-size: 20px;
-  font-family: Garamond;
+    color: black;
+    font-size: 20px;
+    font-family: Garamond;
 }
 
 /* set font size for text */
 .text {
-  color: #F8F8FF;
-  font-family: Garamond;
+    color: #F8F8FF;
+    font-family: Garamond;
 }
 
 /* set html scroll behavior */
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 
 /* set #theDiv tag settings */
 #theDiv {
-  color: white;
-  width: 300px;
-  border: solid #F0E68C 2px;
+    color: white;
+    width: 300px;
+    border: solid #F0E68C 2px;
 }
 
 /* set #theDiv2 tag settings */
 #theDiv2 {
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  width: 800px;
-  border: solid #F0E68C 2px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 800px;
+    border: solid #F0E68C 2px;
 }
 
 /* set #theDiv3 tag settings */
 #theDiv3 {
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  width: 300px;
-  border: solid #F0E68C 2px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 300px;
+    border: solid #F0E68C 2px; 
 }
 
 /* set #theDiv4 tag settings */
 #theDiv4 {
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  width: 600px;
-  height: 320px;
-  border: solid #F0E68C 2px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: fit-content;
+    max-height: fit-content;
+    border: solid #F0E68C 2px;
 }
+
 
 /*For sizing all images*/
 img
 {
-  width: 100px;
-  height:200px;
-  
+    width: 100px;
+    height:200px;
+    
 }
 
 
 /* For centering images*/
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 
 /*For putting three images side to side*/
 .row {
-  display: flex;
+    display: flex;
+    flex-wrap: wrap; /* Ensure flex items wrap to the next line */
+    justify-content: space-between; /* Add space between columns */
 }
 
 .column {
-  flex: 33.33%;
-  padding: 5px;
+    flex: 33.33%;
+    padding: 15px;
+    width: 50%;
+}
+
+/*For fixed footer of webpage*/
+#footer {
+    /* position: fixed; for fixed to bottom of the screen*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F0E68C;
+    color: black;
+    text-align: center;
 }
 
 
-/*-------------------------------- Footer settings --------------------------------*/
 
-#footer{
-  background-color: #F0E68C;
-
+/* sets the outside resources image sizes */
+div.resource_image img
+{
+    width: 250px;
+    height: 200px;
+    padding-left: 50px;
+    padding-right: 30px;
 }
 
-.footerContainer{
-  width: 100%;
-  padding: 70px 30px 20px ;
+
+.table-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow tables to wrap to the next line */
+    justify-content: center; /* Center tables horizontally */
 }
 
 
+/* Media query for smaller screen sizes */
+@media screen and (max-width: 600px) {
+    .sample_container {
+        flex-direction: column; /* Change flex direction to column */
+        align-items: flex-start; /* Align items to start (top) */
+    }
+
+    div.sample_image img {
+        width: 100%; /* Make image width 100% to fit smaller screens */
+        height: auto; /* Auto height to maintain aspect ratio */
+        padding: 20px; 
+        align-items: center;
+    }
+
+ 
+
+    .sample_text {
+        border: solid white 2px;
+        content: "\A"; /* This represents a new line */
+        margin-left: 20px;
+       }
+
+    
+    
+    .column {
+        width: 100%;
+    }
+
+    .table-container {
+        justify-content: center;
+    }
+}
+
+/*-------------------------------- Made by Albert Mendez   --------------------------------*/
 /*-------------------------------- Navigation bar settings --------------------------------*/
-/* Navbar container */
-.navbar {
-  overflow: hidden;
-  background-color: #F0E68C; /*Khaki*/
-  font-family: Garamond;
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Garamond;
+    text-decoration: none;
 }
 
-  /* Links inside the navbar */
-  .navbar a {
-      float:left;
-      font-size: 20px;
-      color: black;
-      text-align: center;
-      padding: 24px 16px;
-      text-decoration: none;
-  }
-
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
+.header_nav {
+    position: relative;
+    left: 10px; right: 10px;
+    background: #F0E68C;
+    padding: 0px 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    text-decoration: none;
+    flex-direction: column; 
+    margin-right: 20px;
 }
 
-  /* Dropdown button */
-  .dropdown .dropbtn {
-      font-size: 20px;
-      border: none;
-      outline: none;
-      color: black;
-      padding: 17px 16px;
-      background-color: inherit;
-      font-family: inherit; /* Important for vertical align on mobile phones */
-      margin: 0; /* Important for vertical align on mobile phones */
-  }
+.header_nav .navbar ul{
+    list-style: none;
 
-  /* Add a background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
-      background-color: #BDB76B; /*Dark Khaki*/
-  }
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #F0E68C; /*Khaki*/
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
 }
 
-  /* Links inside the dropdown */
-  .dropdown-content a {
-      float: none;
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      text-align: left;
-  }
-
-      /* Add a background color to dropdown links on hover */
-      .dropdown-content a:hover {
-          background-color: #BDB76B; /*Dark Khaki*/
-      }
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
+.header_nav .navbar ul li {
+    position: relative;
+    float: left;
 }
 
-/* Code from Albert Mendez for style of table
-for the course outline */
-
-<style >
-* {
-  box-sizing: border-box;
+.header_nav .navbar ul li a {
+    font-size: 20px;
+    padding:20px;
+    color: black;
+    display: block;
 }
 
-.row {
-  margin-left: -5px;
-  margin-right: -5px;
+.header_nav .navbar ul li a:hover {
+    background-color: #BDB76B;
+
 }
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 15px;
+.header_nav .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    background: #F0E68C;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    white-space: nowrap;
+    transition: all 0.3s ease; /* Add this line */
+    transition-delay: 0s, 0.5s; /* Add this line */
 }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.header_nav .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.1);
 }
 
-/* table settings */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-  border: 2px solid #F0E68C;
+.header_nav .navbar ul li :focus-within > ul,
+.header_nav .navbar ul li:hover > ul{
+    display: initial;
 }
 
-/* table header settings */
-th {
-  text-align: left;
-  padding: 10px;
+#menu-bar{
+    display: none;
 }
 
-/* table data settings */
-td {
-  text-align: left;
-  padding: 10px;
+.header_nav label{
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    display: none;
+    padding: 20px; 
+    width: 100%; 
+    text-align: center; 
+    z-index: 1; 
 }
 
-/* sets the even rows background colour set to azure */
-tr:nth-child(even) {
-  background-color: azure;
-}
+@media(max-width:1225px) {
+    .header_nav{
+        padding: 20px;
+        text-align: center;
+        position: relative; 
+        margin-right: 20px;
+    }
 
-/* sets the odd rows background colour set to white */
-tr:nth-child(odd) {
-  background-color: white;
-}
+    .header_nav label{
+        display: block; 
+        
+    }
 
-/* every even row the background colour is set to this dark gold colour */
-tr:first-child {
-  background-color: #554d05;
-}
+    .header_nav .navbar{
+        position: relative;
+        top: 100%; left: 0; right: 0;
+        background: #F0E68C;
+        border-top: 1px solid rgba(0,0,0,.1);
+        display: none;
+        z-index: 0; 
+    }
 
-/* every even row the background colour is set to this light gold colour */
-tr:nth-child(2) {
-  background-color: #F0E68C;
+    .header_nav .navbar ul li{
+        width: 100%;
+        border-bottom: 1px solid rgba(0,0,0,.1);
+    }
+
+    .header_nav .navbar ul li ul{
+        position: relative;
+        width: 100%;
+        transition: all 0.3s ease; 
+        transition-delay: 0s, 3.5s ease; 
+    }
+
+    .header_nav .navbar ul li ul li {
+        background: #F0E68C;
+    }
+
+    .header_nav .navbar ul li ul li ul {
+        width: 100%;
+        left: 0;
+    }
+
+    #menu-bar:checked ~ .navbar{
+        display: initial;
+    }
 }
 
 
+
+/*-------------------------------- Clubs and Organizations settings --------------------------------*/
 /*used for left margin photo on clubs page */
 #hp {
-  float: left;
-  margin: 0 15px 0 0;
+    float: left;
+    margin: 0 15px 0 0;
 }
 
 
 /* Style social media icons */
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
 
-  /* Add a hover effect to social media icon */
-  .fa:hover {
-      opacity: 0.7;
-  }
+    /* Add a hover effect to social media icon */
+    .fa:hover {
+        opacity: 0.7;
+    }
 
 /* Set a specific color for social media icon*/
 /* Instagram colors */
 .fa-instagram {
-  background: #ffffff;
-  color: #060303;
+    background: #c6146d;
+    color: white;
+    display: block;
+    margin: 0 auto;
 }
 
 /*used for round social media icons on clubs page */
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
 }
 
 /*used for header on clubs/organizations page*/
 .three h1 {
-  font-size: 50px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.5em;
-  padding-bottom: 15px;
-  text-align: center;
-  position: relative;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+    text-align: center;
+    position: relative;
 }
 
+#club {
+    max-width: 1250px; /* Set the maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding to the container */
+}
+
+/* sets the clubs and organization image sizes */
+div.club_image img
+{
+    width: 250px;
+    height: 200px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+/*-------------------------------- Made by Albert Mendez ----------------------------*/
 /*-------------------------------- Quiz CSS settings --------------------------------*/
 /* start conetainer */
 .start-container {
@@ -390,6 +472,7 @@ tr:nth-child(2) {
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
 }
 
 /* start container paragraph settings */
@@ -398,6 +481,7 @@ tr:nth-child(2) {
     font-size: 28px;
     margin-bottom: 20px;
     color: #333;
+    margin-bottom: 50px;
 }
 
 .start-container p {
