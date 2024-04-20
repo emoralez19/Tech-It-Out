@@ -1,3 +1,7 @@
+<!-- BS Computer Science Page HTML/CSS -->
+<!-- By Albert Mendez IV -->
+<!-- Last Updated 4/19/2024-->
+
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,6 +9,8 @@
     <title></title>
     <!--Link to the CSS stylesheet-->
     <link rel="stylesheet" href="StyleSheet1.css">
+    <!-- Link to responsiveness foder department-->
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
 </head>
 
 <!-- header image as well as header department-->
@@ -20,78 +26,62 @@
     </div>
 </body>
 
-<!-- add navigation bar code to the top of every file /> -->
-<!-- add navigation bar code to the top of every file /> -->
-<div class="navbar">
-    <a href="index.html">Home</a>
-    <!-- Dropdown for BS degrees -->
-    <div class="dropdown">
-        <button class="dropbtn">
-            BS Degrees ▼
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="BS CS.html">Computer Science</a>
-            <a href="BS Cybersecurity Page.html">Cybersecurity</a>
-            <a href="CS game track.html">Game Development</a>
-            <a href="BS Data Science.html">Data Science</a>
+       
+<body>
+    <div class= "header_nav">
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar">Navigation Bar</label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a>BS Degrees ▼</a>
+                        <ul>
+                            <li><a href="BS Computer Science Page.html">Computer Science</a></li>
+                            <li><a href="BS Cybersecurity Page.html">Cybersecurity</a></li>
+                            <li><a href="CS game track.html">Game Development</a></li>
+                            <li><a href="BS Data Science.html">Data Science</a></li>
+                        </ul>
+                    </li>
+                    <li><a>BA Degrees ▼</a>
+                        <ul>
+                            <li><a href="BA Comp Inf Sys.html">Computer Information Systems</a></li>
+                            <li><a href="BA CS and AS.html">Computer Science and Application Systems</a></li>
+                            <li><a href="BA_TC.html">Computer Science with a Teacher Certification</a></li>
+                        </ul>
+                    </li>
+                    <li><a>MS Degrees ▼</a>
+                        <ul>
+                            <li><a href="MS_CS.html">Computer Science</a></li>
+                            <li><a href="MS Cybersecurity Page.html">Cybersecurity</a></li>
+                            <li><a href="MS CIS.html">Computer Information Systems</a></li>
+                        </ul>
+                    </li>
+                    <li><a>Certifications ▼</a>
+                        <ul>
+                            <li><a href="EduGameCert.html">Educational Computer Gaming</a></li>
+                            <li><a href="Cyber_Cert.html">Cybersecurity</a></li>
+                        </ul>    
+                    </li>
+                    <li><a href="ComputerScienceMinor.html">Minor</a></li>
+                    <li><a>CS Department ▼</a>
+                        <ul>
+                            <li><a href="Comp Sci Professors .html">Professors</a></li>
+                            <li><a href="Clubs_Orgs.html">Clubs</a></li>
+                        </ul>   
+                    </li>
+                    <li><a href="outside_resources.html">Resources</a></li>
+                    <li><a href="Quiz.html">Quiz</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
-    <!--BA degrees-->
-    <div class="dropdown">
-        <button class="dropbtn">
-            BA Degrees ▼
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="BA Comp Inf Sys.html">Computer Information Systems</a>
-            <a href="BA CS and AS.html">Computer Science and Application Systems</a>
-            <a href="BA_TC.html">Computer Science with a Teacher Certification</a>
-        </div>
-    </div>
-    <!--MS Degrees-->
-    <div class="dropdown">
-        <button class="dropbtn">
-            MS Degrees ▼
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="MS_CS.html">Computer Science</a>
-            <a href="MS Cybersecurity Page.html">Cybersecurity</a>
-            <a href="MS CIS.html">Computer Information Systems</a>
-        </div>
-    </div>
-    <!--Certifications-->
-    <div class="dropdown">
-        <button class="dropbtn">
-            Certifications ▼
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="EduGameCert.html">Educational Computer Gaming</a>
-            <a href="Cyber_Cert.html">Cybersecurity</a>
-        </div>
-    </div>
-    <a href="ComputerScienceMinor.html">Minor</a>
-    <!--CS Department-->
-    <div class="dropdown">
-        <button class="dropbtn">
-            CS Department ▼
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="Comp Sci Professors .html">Professors</a>
-            <a href="Clubs_Orgs.html">Clubs</a>
-        </div>
-    </div>
-    <a href="outside_resources.html">Resources</a>
-    <a href="Quiz.html">Quiz</a>
-</div>
+</body>
 
 
 <!-- BS Computer Science page title-->
 <!-- adding spacing between the navigation bar and the title-->
 <br />
+<br />
+
 <div style="text-align:center">
     <h1>
         B.S. in Computer Science Cybersecurity Track
@@ -192,10 +182,18 @@
 
 
 
-    /* mobile view for the tables if the screen is lower than 600 pixels wide then the
+    /* mobile view for the tables if the screen is lower than 768 pixels wide then the
          tables are placed on top of one another */
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         .column {
+            width: 100%;
+        }
+
+        table {
+            display: block;
+            width: 100%;
+        }
+        th, td {
             width: 100%;
         }
     }
@@ -479,17 +477,19 @@
 <!-- Example Job list-->
 <div id="theDiv4">
     <h4 style="text-align:center">
-        <p>List of Jobs one can obtain with a BS Computer Science Cybersecurity Track Degree: </p>
+        <p style="color: #F0E68C;">List of Jobs one can obtain with a BS Computer Science Cybersecurity Track Degree: </p>
         <p>Cryptographer</p>
         <p>Malware Analyst</p>
         Penetration Tester
         </h>
-        <!-- Adding empty spaces between the example job list and the footer section of the page-->
+        
 </div>
+
+<!-- Adding empty spaces between the example job list and the footer section of the page-->
+<br />
 <br />
 
-
- <!--Footer section-->
+ <!--Footer section done by Eli-->
         <style>
         h3
         {
