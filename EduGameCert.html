@@ -1,6 +1,9 @@
 ﻿<!DOCTYPE html>
 <!--Made by: Eli Moralez
     Last Updated: 4/7/2024-->
+<!-- Last Updated by Albert Mendez 4/19/2024-->
+<!-- Page layout/preset done by Albert Mendez -->
+<!-- Responsiveness done by Albert Mendez -->
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -8,6 +11,8 @@
     <title></title>
     <!--Link to the CSS stylesheet-->
     <link rel="stylesheet" href="StyleSheet1.css">
+    <!-- Link to responsiveness foder department-->
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
 </head>
 <body>
     <!--Static website header provided from Albert-->
@@ -21,75 +26,59 @@
             <h1>St. Mary's Computer Science Department</h1>
         </div>
     </div>
-    <!-- add navigation bar code to the top of every file /> -->
-    <!-- add navigation bar code to the top of every file /> -->
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <!-- Dropdown for BS degrees -->
-        <div class="dropdown">
-            <button class="dropbtn">
-                BS Degrees ▼
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="BS CS.html">Computer Science</a>
-                <a href="BS Cybersecurity Page.html">Cybersecurity</a>
-                <a href="CS game track.html">Game Development</a>
-                <a href="BS Data Science.html">Data Science</a>
-            </div>
-        </div>
-        <!--BA degrees-->
-        <div class="dropdown">
-            <button class="dropbtn">
-                BA Degrees ▼
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="BA Comp Inf Sys.html">Computer Information Systems</a>
-                <a href="BA CS and AS.html">Computer Science and Application Systems</a>
-                <a href="BA_TC.html">Computer Science with a Teacher Certification</a>
-            </div>
-        </div>
-        <!--MS Degrees-->
-        <div class="dropdown">
-            <button class="dropbtn">
-                MS Degrees ▼
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="MS_CS.html">Computer Science</a>
-                <a href="MS Cybersecurity Page.html">Cybersecurity</a>
-                <a href="MS CIS.html">Computer Information Systems</a>
-            </div>
-        </div>
-        <!--Certifications-->
-        <div class="dropdown">
-            <button class="dropbtn">
-                Certifications ▼
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="EduGameCert.html">Educational Computer Gaming</a>
-                <a href="Cyber_Cert.html">Cybersecurity</a>
-            </div>
-        </div>
-        <a href="ComputerScienceMinor.html">Minor</a>
-        <!--CS Department-->
-        <div class="dropdown">
-            <button class="dropbtn">
-                CS Department ▼
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="Comp Sci Professors .html">Professors</a>
-                <a href="Clubs_Orgs.html">Clubs</a>
-            </div>
-        </div>
-        <a href="outside_resources.html">Resources</a>
-        <a href="Quiz.html">Quiz</a>
-    </div>
 
-    </br >
+    <!-- Navigation Bar Done by Albert Mendez IV -->        
+    <body>
+    <div class= "header_nav">
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar">Navigation Bar</label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a>BS Degrees ▼</a>
+                        <ul>
+                            <li><a href="BS Computer Science Page.html">Computer Science</a></li>
+                            <li><a href="BS Cybersecurity Page.html">Cybersecurity</a></li>
+                            <li><a href="CS game track.html">Game Development</a></li>
+                            <li><a href="BS Data Science.html">Data Science</a></li>
+                        </ul>
+                    </li>
+                    <li><a>BA Degrees ▼</a>
+                        <ul>
+                            <li><a href="BA Comp Inf Sys.html">Computer Information Systems</a></li>
+                            <li><a href="BA CS and AS.html">Computer Science and Application Systems</a></li>
+                            <li><a href="BA_TC.html">Computer Science with a Teacher Certification</a></li>
+                        </ul>
+                    </li>
+                    <li><a>MS Degrees ▼</a>
+                        <ul>
+                            <li><a href="MS_CS.html">Computer Science</a></li>
+                            <li><a href="MS Cybersecurity Page.html">Cybersecurity</a></li>
+                            <li><a href="MS CIS.html">Computer Information Systems</a></li>
+                        </ul>
+                    </li>
+                    <li><a>Certifications ▼</a>
+                        <ul>
+                            <li><a href="EduGameCert.html">Educational Computer Gaming</a></li>
+                            <li><a href="Cyber_Cert.html">Cybersecurity</a></li>
+                        </ul>    
+                    </li>
+                    <li><a href="ComputerScienceMinor.html">Minor</a></li>
+                    <li><a>CS Department ▼</a>
+                        <ul>
+                            <li><a href="Comp Sci Professors .html">Professors</a></li>
+                            <li><a href="Clubs_Orgs.html">Clubs</a></li>
+                        </ul>   
+                    </li>
+                    <li><a href="outside_resources.html">Resources</a></li>
+                    <li><a href="Quiz.html">Quiz</a></li>
+                </ul>
+            </nav>
+        </div>
+    </body>
+
+    <br />
+    <br />
 
     <!-- Title of the page-->
     <!-- using a container able to have an image beside text-->
@@ -189,10 +178,18 @@
             background-color: #F0E68C;
         }
 
-        /* mobile view for the tables if the screen is lower than 600 pixels wide then the
+        /* mobile view for the tables if the screen is lower than 728 pixels wide then the
          tables are placed on top of one another */
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 728px) {
             .column {
+                width: 100%;
+            }
+
+            table {
+                display: block;
+                width: 100%;
+            }
+            th, td {
                 width: 100%;
             }
         }
