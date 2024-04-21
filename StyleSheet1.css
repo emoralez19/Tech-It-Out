@@ -293,6 +293,7 @@ div.resource_image img
 .header_nav .navbar ul li {
     position: relative;
     float: left;
+    cursor: pointer;
 }
 
 .header_nav .navbar ul li a {
