@@ -75,6 +75,28 @@
         </div>
 </body>
 
+<!-- Javascript for mobile devices they can press the navigation bar header to see dropdown menu -->
+<script>
+    // Select all the dropdown headers
+var dropdowns = document.querySelectorAll('.header_nav .navbar ul li');
+
+// Loop through each dropdown header
+for (var i = 0; i < dropdowns.length; i++) {
+    // Add click event listener
+    dropdowns[i].addEventListener('click', function() {
+        // Get the dropdown list within this header
+        var dropdownList = this.querySelector('ul');
+        
+        // If the dropdown list is currently displayed, hide it. Otherwise, show it.
+        if (dropdownList.style.display === 'initial') {
+            dropdownList.style.display = 'none';
+        } else {
+            dropdownList.style.display = 'initial';
+        }
+    });
+}
+</script>
+
 
     <!-- BS Computer Science page title-->
     <!-- adding spacing between the navigation bar and the title-->

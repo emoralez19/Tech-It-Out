@@ -369,6 +369,7 @@ div.resource_image img
     .header_nav .navbar ul li{
         width: 100%;
         border-bottom: 1px solid rgba(0,0,0,.1);
+        cursor: pointer;
     }
 
     .header_nav .navbar ul li ul{
@@ -390,6 +391,8 @@ div.resource_image img
     #menu-bar:checked ~ .navbar{
         display: initial;
     }
+
+ 
 }
 
 
