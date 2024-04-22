@@ -149,12 +149,16 @@ for (var i = 0; i < dropdowns.length; i++) {
         .row {
             display: flex;
             justify-content: center;
+            margin-left: -5px;
+            margin-right: -5px;
+            flex-wrap: wrap;
         }
 
         /* Individual columns */
         .column {
             width: 50%;
             padding: 15px;
+            flex: 50%;
         }
 
         /* Table style */
@@ -165,6 +169,7 @@ for (var i = 0; i < dropdowns.length; i++) {
             max-width: 1000px;
             margin: 0 auto;
             border: 2px solid #F0E68C;
+            padding: 0;
         }
 
         /* Table header style */
@@ -204,6 +209,7 @@ for (var i = 0; i < dropdowns.length; i++) {
         @media screen and (max-width: 768px) {
             .column {
                 width: 100%;
+                flex: 100%;
             }
 
             table {
@@ -262,13 +268,7 @@ for (var i = 0; i < dropdowns.length; i++) {
 
                 </tr>
                 <tr>
-                    <!-- empty row for spacing/formatting &nbsp; is used to prevent collapsing the row-->
-                    <td>&nbsp;</td>
                     <td></td>
-
-                </tr>
-                <tr>
-                    <td>Total Credit Hours:</td>
                     <td>18</td>
 
                 </tr>

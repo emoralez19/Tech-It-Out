@@ -146,12 +146,17 @@ for (var i = 0; i < dropdowns.length; i++) {
     .row {
         margin-left: -5px;
         margin-right: -5px;
+
+        display: flex;
+        flex-wrap: wrap; 
     }
 
     .column {
         float: left;
         width: 50%;
         padding: 15px;
+
+        flex: 50%;
     }
 
     /* Clearfix (clear floats) */
@@ -167,6 +172,10 @@ for (var i = 0; i < dropdowns.length; i++) {
         border-spacing: 0;
         width: 100%;
         border: 2px solid #F0E68C;
+
+        padding: 0;
+        margin: 0; 
+
     }
 
     /* table header settings */
@@ -208,7 +217,9 @@ for (var i = 0; i < dropdowns.length; i++) {
     @media screen and (max-width: 768px) {
         .column {
             width: 100%;
-        }
+
+            flex: 100%;
+        } 
 
         table {
             display: block;
@@ -538,3 +549,4 @@ for (var i = 0; i < dropdowns.length; i++) {
         </id>
         </div> 
 </html>
+
