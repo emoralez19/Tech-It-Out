@@ -456,13 +456,35 @@ div.resource_image img
     padding: 20px; /* Add padding to the container */
 }
 
+.club_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
 /* sets the clubs and organization image sizes */
-div.club_image img
-{
+div.club_image img {
     width: 250px;
     height: 200px;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-right: 30px;
+}
+
+div.club_text {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Media query for mobile screen sizes */
+@media (max-width: 768px) {
+    .club_container {
+        flex-direction: column;
+    }
+
+    div.club_image img {
+        padding-bottom: 10px;
+    }
 }
 
 /*-------------------------------- Made by Albert Mendez ----------------------------*/
